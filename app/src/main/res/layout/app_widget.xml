@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AppWidget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/Status_Image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/status" />
+
+                <TextView
+                    android:id="@+id/actualTemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:lines="1"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="5"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Status_Text"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-7dp"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowRadius="5"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/WindRain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:minWidth="135dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_round_widget"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/WindIcon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:contentDescription="@string/wind"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="5"
+                    android:src="@drawable/wind" />
+
+                <TextView
+                    android:id="@+id/Wind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:lines="1"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="5"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_round_widget"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/Snow"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:contentDescription="@string/snow"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="5"
+                    android:src="@drawable/snow"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/Rain"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:contentDescription="@string/rain"
+                    android:src="@drawable/rain" />
+
+                <TextView
+                    android:id="@+id/RainSnow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:lines="1"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="5"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/moreInfos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_widget"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/SunriseIcon"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:contentDescription="@string/sunrise"
+                android:src="@drawable/sunrise" />
+
+            <TextView
+                android:id="@+id/Sunrise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:lines="1"
+                android:shadowColor="#000000"
+                android:shadowRadius="5"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/bg_round_widget"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/SunsetIcon"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:contentDescription="@string/sunset"
+                android:src="@drawable/sunset" />
+
+            <TextView
+                android:id="@+id/Sunset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:lines="1"
+                android:shadowColor="#000000"
+                android:shadowRadius="5"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/bg_round_widget"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/PressureIcon"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:contentDescription="@string/pressure"
+                android:src="@drawable/pressure" />
+
+            <TextView
+                android:id="@+id/Pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:lines="1"
+                android:shadowColor="#000000"
+                android:shadowRadius="5"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/bg_round_widget"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/HumidityIcon"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:contentDescription="@string/humidity"
+                android:src="@drawable/humidity" />
+
+            <TextView
+                android:id="@+id/Humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:lines="1"
+                android:shadowColor="#000000"
+                android:shadowRadius="5"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:id="@+id/maxMinTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/update"
+            android:layout_toLeftOf="@id/update"
+            android:lines="1"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:shadowColor="#000000"
+            android:shadowRadius="5"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp" />
+
+        <LinearLayout
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:id="@+id/UpdatedAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:paddingHorizontal="1sp"
+                android:shadowColor="#000000"
+                android:shadowRadius="5"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp" />
+
+            <ImageView
+                android:id="@+id/UpdatedIcon"
+                android:layout_width="11sp"
+                android:layout_height="11sp"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/updated"
+                android:src="@android:drawable/ic_popup_sync" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

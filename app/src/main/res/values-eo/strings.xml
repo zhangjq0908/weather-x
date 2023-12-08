@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Vetero</string>
+    <string name="status">Statuso</string>
+    <string name="logo">Emblemo</string>
+    <string name="city">Urbo</string>
+    <string name="detect_location">Eltrovi loko</string>
+    <string name="detect_location_automatic">Detekti lokon aŭtomate</string>
+    <string name="detect_location_search">Atingi vian lokon…</string>
+    <string name="detect_location_activate">Loko ne estas ebligita. Aktivigi ĝin por la uzo de la funkcio.</string>
+    <string name="detect_location_permission_not_granted">Loko permesoj ne estas donita.
+\nDonu ĝi en la fiksoj (GPS ikono).</string>
+    <string name="detect_location_new_location">Nova loko eltrovita - rekomenci kun nova loko…</string>
+    <string name="api_key">API-Ŝlosilo (alklaku por informo)</string>
+    <string name="enter_your_openweathermap_api_key">Tajpu vian propran API-Ŝlosilon</string>
+    <string name="submit_data">Sendu datumojn</string>
+    <string name="UiSettings">Interfaca Agordoj</string>
+    <string name="unit1">Unuoj (Temper\' | Vento)</string>
+    <string name="unit2">Unuoj (Pluvo | Premo)</string>
+    <string name="chooseTheme">Elektu etoson:</string>
+    <string name="gradient">Gradiento</string>
+    <string name="coloured_status_icons">Koloraj statuso ikonoj</string>
+    <string name="TimeFormat">24-hora formato</string>
+    <string name="ChooseLang">Elektu Lingvo</string>
+    <string name="choose_city">Elektu vian Urbon:</string>
+    <string name="abort">Ĉesigi</string>
+    <string name="error_occurred">Okazis eraro, malnovaj datumoj estos ŝarĝitaj! Vi verŝajne atingis la API limo aŭ neniu ligo…</string>
+    <string name="error_1">La API ŝlosilo ne estas aktiva aŭ ne specifita!</string>
+    <string name="error_2">La urbo estas nevalida aŭ ne specifita!</string>
+    <string name="error_3">Bonvolu kontroli vian retkonekton!</string>
+    <string name="reportError">Trovis eraron\? Stranga konduto\?
+\nRaporti ĝin sur <a href="https://codeberg.org/BeoCode/Weather/issues">Codeberg</a> aŭ per <a href="mailto:weather@beocode.eu">retpoŝte</a></string>
+    <string name="created_by">Kreite de <a href="https://codeberg.org/BeoCode/Weather">BeoCode</a> licencita laŭ <a href="https://codeberg.org/BeoCode/Weather/src/branch/main/LICENSE">EUPL-1.2</a></string>
+    <string name="OWM">Datumoj provizitaj de <a href="https://openweathermap.org/">OpenWeatherMap</a> licencita laŭ <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a></string>
+    <string name="Icons"><a href="https://erikflowers.github.io/weather-icons/">Ikonoj</a> de <a href="https://www.twitter.com/erik_flowers">E. Flowers</a> &amp; <a href="https://www.twitter.com/artill">L. Bischoff</a> licencita laŭ <a href="https://scripts.sil.org/OFL">SIL OFL 1.1</a></string>
+    <string name="configureWidget">Agordu widget</string>
+    <string name="widgetBackTrans">Fari widget travidebla fono</string>
+    <string name="ShowUpdatedAt">Ne montru \"Ĝisdatigita:\"</string>
+    <string name="widgetUpdateInterval">Aro fenestraĵo ĝisdatigo intervalo (por ĉiuj fenestraĵoj)</string>
+    <string name="widgetUpdateIntervalUnit">min</string>
+    <string name="widgetUpdateIntervalToShort">Noto: Tia mallonga ĝisdatigo intervalo ne estas permesita por la norma ŝlosilo. La ĝisdatigo intervalo sekve estis fiksita al 30 minutoj.</string>
+    <string name="updated">Ĝisdatigita:</string>
+    <string name="weatherMaps">Vetermapoj</string>
+    <string name="feels">Sentas kiel</string>
+    <string name="weatherAlerts">Estas vetero alarmas…</string>
+    <string name="daytime">Daytime</string>
+    <string name="sunrise">Sunleviĝo</string>
+    <string name="sunset">Sunsubiro</string>
+    <string name="wind">Vento</string>
+    <string name="pressure">Premo</string>
+    <string name="humidity">Humideco</string>
+    <string name="rain">Pluvo</string>
+    <string name="rainCloud">Pluvo &amp; Nubeco</string>
+    <string name="rainRadar">Pluva radaro</string>
+    <string name="snow">Neĝo</string>
+    <string name="cloudiness">Nubeco</string>
+    <string name="visibility">Videblo</string>
+    <string name="uvIndex">UV Indekso</string>
+    <string name="windGust">Ventblovo</string>
+    <string name="temperature">Temperaturo</string>
+    <string name="Min">Min\'</string>
+    <string name="Max">Maks\'</string>
+    <string name="date">dd.MM.yyyy</string>
+    <string name="daymonthdate">E, dd.MM</string>
+    <string name="today">Hodiaŭ</string>
+    <string name="tomorrow">Morgaŭ</string>
+    <string name="save">Savi</string>
+    <string name="add">Aldoni</string>
+    <string name="options">Opcioj</string>
+    <string name="switchCity">Interŝanĝu %1$s kun la ĉefa urbo (%2$s)</string>
+    <string name="removeCity">Forigi %s</string>
+    <string name="alarm">Alarmo</string>
+    <string name="themes_light">Hela Etoso</string>
+    <string name="themes_dark">Malhela Etoso</string>
+    <string name="themes_red">Ruĝa Etoso</string>
+    <string name="themes_sand">Sabla Etoso</string>
+    <string name="themes_blue">Blua Etoso</string>
+    <string name="degree_north">N</string>
+    <string name="degree_north_north_east">NNE</string>
+    <string name="degree_north_east">NE</string>
+    <string name="degree_east_north_east">ENE</string>
+    <string name="degree_east">E</string>
+    <string name="degree_east_south_east">ESE</string>
+    <string name="degree_south_east">SE</string>
+    <string name="degree_south_south_east">SSE</string>
+    <string name="degree_south">S</string>
+    <string name="degree_south_south_west">SSW</string>
+    <string name="degree_south_west">SW</string>
+    <string name="degree_west_south_west">WSW</string>
+    <string name="degree_west">W</string>
+    <string name="degree_west_north_west">WNW</string>
+    <string name="degree_north_west">NW</string>
+    <string name="degree_north_north_west">NNW</string>
+    <string name="temp_kelvin">K</string>
+    <string name="temp_celsius">°C</string>
+    <string name="temp_fahrenheit">°F</string>
+    <string name="speed_meters_per_seconds">m/s</string>
+    <string name="speed_kilometers_per_hour">km/h</string>
+    <string name="speed_miles_per_hour">mph</string>
+    <string name="speed_beaufort">bft</string>
+    <string name="speed_knot">kn</string>
+    <string name="distance_millimeter">mm</string>
+    <string name="distance_inch">in</string>
+    <string name="pressure_hectopascal">hPa</string>
+    <string name="pressure_kilopascal">kPa</string>
+    <string name="pressure_millimeters_of_mercury">mm Hg</string>
+    <string name="pressure_inch_of_mercury">in Hg</string>
+    <string name="pressure_pounds_per_square_inch">psi</string>
+    <string name="pressure_atmosphere">atm</string>
+    <string name="highlightDay" tools:ignore="MissingTranslation">Reliefigi tagon</string>
+    <string name="widgetColour" tools:ignore="MissingTranslation">Agordu fenestraĵo koloro</string>
+    <string name="red" tools:ignore="MissingTranslation">Ruĝa</string>
+    <string name="green" tools:ignore="MissingTranslation">Verda</string>
+    <string name="blue" tools:ignore="MissingTranslation">Blua</string>
+    <string name="themes_system" tools:ignore="MissingTranslation">Sistemo (Lumo/Mallumo)</string>
+</resources>

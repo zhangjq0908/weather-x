@@ -1,0 +1,53 @@
+Özellikler:
+- güncel hava durumu
+- 7 günlük hava tahmini
+- 48 saatlik tahmin tahmini
+- hava durumu haritaları
+- yağmur radarı
+- hava durumu uyarıları
+- birden fazla şehir
+- birden fazla birim
+
+Desteklenen diller:
+- İngilizce (%100)
+- Ermenice (%70)
+- Boşnakça (%94)
+- Bulgarca (%94)
+- Çince (basitleştirilmiş) (%100)
+- Çince (geleneksel) (%100)
+- Çekçe (%94)
+- Felemenkçe (%100)
+- Esperanto (%94)
+- Fince (%94)
+- Fransızca (%100)
+- Gürcüce (%78)
+- Almanca (%100)
+- Yunanca (%88)
+- İtalyanca (%94)
+- Makedonca (%84)
+- Lehçe (%100)
+- Portekizce (BR) (%94)
+- Rusça (%94)
+- Sırpça (Latin) (%94)
+- İspanyolca (%94)
+- Türkçe (%100)
+- Ukraynaca (%100)
+
+Hava durumu verileri:
+Hava durumu verileri <a href="https://openweathermap.org/">OpenWeatherMap.org</a> tarafından sağlanmakta, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> altında lisanslanmaktadır.
+
+API anahtarı edinmek için:
+<a href="https://home.openweathermap.org/users/sign_up">OpenWeatherMap.org</a> adresine gidin ve ücretsiz kaydolun. API anahtarının etkinleştirilmesi biraz zaman alabilir!
+
+Wiki:
+Sorularınız mı var, uygulamayı kurmak için yardıma mı ihtiyaç duyuyorsunuz veya yalnızca daha fazla bilgi edinmek mi istiyorsunuz? O zaman <a href="https://codeberg.org/BeoCode/Weather/wiki">wiki</a> sayfasına göz atın.
+
+Lisans:
+<a href="https://codeberg.org/BeoCode/Weather/src/branch/main/LICENSE">EUPL-1.2</a> altında lisanslandı.
+
+Açık kaynak:
+Bu uygulama <a href="https://codeberg.org/BeoCode/Weather">açık kaynaklıdır</a>.
+<a href="https://codeberg.org/BeoCode/Weather/wiki/Contributors">Katkıda bulunanların</a> hepsine çok teşekkürler.
+
+Simgeler:
+<a href="https://erikflowers.github.io/weather-icons/">Simgeler</a> <a href="https://www.twitter.com/erik_flowers">E. Flowers</a> &amp; <a href="https://www.twitter.com/artill">L. Bischoff</a> tarafından <a href="https://scripts.sil.org/OFL">SIL OFL 1.1</a> altında lisanslandı.

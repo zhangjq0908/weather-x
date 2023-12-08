@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme -->
+    <color name="colorPrimaryLight">#f0f0f0</color>
+    <color name="colorAccentLight">#371f95</color>
+    <color name="frontColorLight">#000000</color>
+    <color name="hintColorLight">#514F4F</color>
+    <color name="colorBackEndLight">#BFBABA</color>
+    <color name="colorBackTransparentLight">#3D606060</color>
+
+    <!-- Dark Theme -->
+    <color name="colorPrimaryDark">#262626</color>
+    <color name="colorAccentDark">#018786</color>
+    <color name="frontColorDark">#FFFFFF</color>
+    <color name="hintColorDark">#B1ACAC</color>
+    <color name="colorBackEndDark">#000000</color>
+    <color name="colorBackTransparentDark">#3CF1EBF1</color>
+
+    <!-- Red Theme -->
+    <color name="colorPrimaryRed">#752A87</color>
+    <color name="colorAccentRed">#EEADFF</color>
+    <color name="frontColorRed">#FFFFFF</color>
+    <color name="hintColorRed">#B1ACAC</color>
+    <color name="colorBackEndRed">#B3411E</color>
+
+    <!-- Sand Theme -->
+    <color name="colorPrimarySand">#feec97</color>
+    <color name="colorAccentSand">#FD5523</color>
+    <color name="frontColorSand">#356859</color>
+    <color name="hintColorSand">#7CA397</color>
+    <color name="colorBackEndSand">#fcdf4d</color>
+    <color name="colorBackTransparentSand">#3Dffa630</color>
+
+    <!-- Blue Theme -->
+    <color name="colorPrimaryBlue">#5A8B9E</color>
+    <color name="colorAccentBlue">#E6821E</color>
+    <color name="frontColorBlue">#F1DEDE</color>
+    <color name="hintColorBlue">#959090</color>
+    <color name="colorBackEndBlue">#1F487E</color>
+    <color name="colorBackTransparentBlue">#3D0B255A</color>
+
+    <!-- Black Theme -->
+    <color name="colorPrimaryBlack">#000000</color>
+    <color name="colorAccentBlack">#018786</color>
+    <color name="frontColorBlack">#FFFFFF</color>
+    <color name="hintColorBlack">#B1ACAC</color>
+    <color name="colorBackEndBlack">#000000</color>
+    <color name="colorBackTransparentBlack">#3C000000</color>
+
+    <!-- Colored Status Icons -->
+    <color name="sun">#B36200</color>
+    <color name="sun_brighter">#E37C00</color>
+    <color name="clouds_gust">#D0CFCF</color>
+    <color name="clouds_gust_darker">#3E3E3E</color>
+    <color name="clouds">#616161</color>
+    <color name="clouds_darker">#2E2E2E</color>
+    <color name="broken_clouds">#757575</color>
+    <color name="broken_clouds_darker">#1E1E1E</color>
+    <color name="few_rain_blue">#2765D3</color>
+    <color name="few_rain_blue_darker">#002B78</color>
+    <color name="rain_blue">#003FAF</color>
+    <color name="rain_blue_darker">#001C50</color>
+    <color name="storm">#515151</color>
+    <color name="snow_white">#FFFFFF</color>
+</resources>

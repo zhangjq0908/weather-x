@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Weather</string>
+    <string name="status">Статус</string>
+    <string name="logo">Лого</string>
+    <string name="city">Град</string>
+    <string name="detect_location">Откриј локација</string>
+    <string name="detect_location_automatic">Откриј ја локацијата автоматски</string>
+    <string name="detect_location_search">Добивање на Вашата локација…</string>
+    <string name="detect_location_activate">Локација не е овозможена. Активирај ја за да ја користиш функцијата.</string>
+    <string name="detect_location_permission_not_granted">Дозвола за локација не е доделена.
+\nВо поставките додели дозвола (GPS icon).</string>
+    <string name="detect_location_new_location">Откриена нова локација - рестартирајте со нова локација…</string>
+    <string name="api_key">API клуч (притисни за информации)</string>
+    <string name="enter_your_openweathermap_api_key">Внеси го твојот сопствен API клуч</string>
+    <string name="submit_data">Поднеси податоци</string>
+    <string name="UiSettings">Поставки за интерфејс</string>
+    <string name="unit1">Мерни единици (Температура | Ветер)</string>
+    <string name="unit2">Мерни единици (Дожд | Притисок)</string>
+    <string name="chooseTheme">Тема:</string>
+    <string name="gradient">Преливни бои</string>
+    <string name="TimeFormat">24-часовен формат</string>
+    <string name="choose_city">Избери го твојот град:</string>
+    <string name="abort">Откажи</string>
+    <string name="error_occurred">Настана грешка, старите податоци ќе се вчитаат! Веројатно сте го достигнале API ограничувањето или немате интернет…</string>
+    <string name="error_1">API клучот не е активен или не е одреден!</string>
+    <string name="error_2">Градот е неважечки или не е наведен!</string>
+    <string name="error_3">Ве молиме, провери ја твојата интернет конекција!</string>
+    <string name="reportError">Најде грешка\? Чудно однесување\?
+\nПријавете на <a href="https://codeberg.org/BeoCode/Weather/issues">Codeberg</a> или преку <a href="mailto:weather@beocode.eu">е-пошта</a></string>
+    <string name="created_by">Создадено од <a href="https://codeberg.org/BeoCode/Weather">BeoCode</a> лиценцирано под <a href="https://codeberg.org/BeoCode/Weather/src/branch/main/LICENSE">EUPL-1.2</a></string>
+    <string name="OWM">Податоците обезбедени од <a href="https://openweathermap.org/">OpenWeatherMap</a> лиценцирано под <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC- BY-SA 4.0</a></string>
+    <string name="Icons"><a href="https://erikflowers.github.io/weather-icons/">Икони</a> од <a href="https://www.twitter.com/erik_flowers">E. Flowers</a> &amp; <a href="https://www.twitter.com/artill">L. Bischoff</a> лиценцирано под <a href="https://scripts.sil.org/OFL">SIL OFL 1.1</a></string>
+    <string name="widgetUpdateIntervalUnit">min</string>
+    <string name="updated">Ажурирано:</string>
+    <string name="feels">Се чувствува како</string>
+    <string name="sunrise">Изгрејсонце</string>
+    <string name="sunset">Зајдисонце</string>
+    <string name="wind">Ветер</string>
+    <string name="pressure">Притисок</string>
+    <string name="humidity">Влажност</string>
+    <string name="rain">Дожд</string>
+    <string name="rainCloud">Дожд &amp; Облачно</string>
+    <string name="rainRadar">Радар за дожд</string>
+    <string name="snow">Снег</string>
+    <string name="cloudiness">Облачно</string>
+    <string name="visibility">Видливост</string>
+    <string name="uvIndex">УВ индекс</string>
+    <string name="windGust">Удари на ветрот</string>
+    <string name="temperature">Температура</string>
+    <string name="Min">Најниска</string>
+    <string name="Max">Највисока</string>
+    <string name="date">dd.MM.yyyy</string>
+    <string name="daymonthdate">E, dd.MM.</string>
+    <string name="today">Денес</string>
+    <string name="tomorrow">Утре</string>
+    <string name="save">Зачувај</string>
+    <string name="add">Додај</string>
+    <string name="options">Опции</string>
+    <string name="switchCity">Замени го %1$s со главниот град (%2$s)</string>
+    <string name="removeCity">Избриши %s</string>
+    <string name="alarm">Аларм</string>
+    <string name="themes_light">Светла</string>
+    <string name="themes_dark">Темна</string>
+    <string name="themes_red">Црвена</string>
+    <string name="themes_sand">Песочна</string>
+    <string name="themes_blue">Сина</string>
+    <string name="degree_north">С</string>
+    <string name="degree_north_north_east">ССИ</string>
+    <string name="degree_north_east">СИ</string>
+    <string name="degree_east_north_east">ИСИ</string>
+    <string name="degree_east">И</string>
+    <string name="degree_east_south_east">ИЈИ</string>
+    <string name="degree_south_east">ЈИ</string>
+    <string name="degree_south_south_east">ЈЈИ</string>
+    <string name="degree_south">Ј</string>
+    <string name="degree_south_south_west">ЈЈЗ</string>
+    <string name="degree_south_west">ЈЗ</string>
+    <string name="degree_west_south_west">ЗЈЗ</string>
+    <string name="degree_west">З</string>
+    <string name="degree_west_north_west">ЗСЗ</string>
+    <string name="degree_north_west">СЗ</string>
+    <string name="degree_north_north_west">ССЗ</string>
+    <string name="temp_kelvin">K</string>
+    <string name="temp_celsius">°C</string>
+    <string name="temp_fahrenheit">°F</string>
+    <string name="speed_meters_per_seconds">м/с</string>
+    <string name="speed_kilometers_per_hour">км/ч</string>
+    <string name="speed_miles_per_hour">мнч</string>
+    <string name="speed_beaufort">bft</string>
+    <string name="speed_knot">kn</string>
+    <string name="distance_millimeter">мм</string>
+    <string name="distance_inch">инчи</string>
+    <string name="pressure_hectopascal">hPa</string>
+    <string name="pressure_kilopascal">kPa</string>
+    <string name="pressure_millimeters_of_mercury">mm Hg</string>
+    <string name="pressure_inch_of_mercury">in Hg</string>
+    <string name="pressure_pounds_per_square_inch">psi</string>
+    <string name="pressure_atmosphere">atm</string>
+    <string name="coloured_status_icons" tools:ignore="MissingTranslation">Обоени статус икони</string>
+    <string name="ChooseLang" tools:ignore="MissingTranslation">Избери Јазик</string>
+    <string name="configureWidget" tools:ignore="MissingTranslation">Конфигурирај графичка контрола</string>
+    <string name="widgetBackTrans" tools:ignore="MissingTranslation">Направи графичка позадина транспарентна</string>
+    <string name="ShowUpdatedAt" tools:ignore="MissingTranslation">Не прикажувај \"atedурирано:\"</string>
+    <string name="highlightDay" tools:ignore="MissingTranslation">Означете го денот</string>
+    <string name="widgetColour" tools:ignore="MissingTranslation">Прилагодете ја бојата на графичките контроли</string>
+    <string name="red" tools:ignore="MissingTranslation">Црвено</string>
+    <string name="green" tools:ignore="MissingTranslation">Зелена</string>
+    <string name="blue" tools:ignore="MissingTranslation">Сино</string>
+    <string name="widgetUpdateInterval" tools:ignore="MissingTranslation">Поставете интервал за widурирање на графички контроли (за сите графички контроли)</string>
+    <string name="widgetUpdateIntervalToShort" tools:ignore="MissingTranslation">Забелешка: Таков краток интервал на upурирање не е дозволен за стандардниот клуч. Затоа, интервалот наdурирање е поставен на 30 минути.</string>
+    <string name="weatherMaps" tools:ignore="MissingTranslation">Временски мапи</string>
+    <string name="weatherAlerts" tools:ignore="MissingTranslation">Постојат временски предупредувања…</string>
+    <string name="daytime" tools:ignore="MissingTranslation">Ден</string>
+    <string name="themes_system" tools:ignore="MissingTranslation">Систем (Светло/Темно)</string>
+</resources>

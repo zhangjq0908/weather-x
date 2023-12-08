@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Vrijeme</string>
+    <string name="status">Stanje</string>
+    <string name="logo">Oznaka</string>
+    <string name="city">Grad</string>
+    <string name="detect_location">Odredi lokaciju</string>
+    <string name="detect_location_automatic">Odredite lokaciju automatski</string>
+    <string name="detect_location_search">Preuzimanje vaše lokacije…</string>
+    <string name="detect_location_activate">Lokacija nije omogućena. Ako želite koristiti ovu funkciju, aktivirajte lokaciju.</string>
+    <string name="detect_location_permission_not_granted">Dozvola za lokaciju nije odobrena.
+\nDodijelite dozvolu u postavkama (GPS ikona).</string>
+    <string name="detect_location_new_location">Detektovana nova lokacija - ponovno pokretanje sa novom lokacijom…</string>
+    <string name="api_key">API ključ (kliknite za info)</string>
+    <string name="enter_your_openweathermap_api_key">Unesite vlastiti API ključ</string>
+    <string name="submit_data">Potvrdi podatke</string>
+    <string name="UiSettings">Postavke prikaza</string>
+    <string name="unit1">Jedinice (Temp | Vjetar)</string>
+    <string name="unit2">Jedinice (Kiša | Pritisak)</string>
+    <string name="chooseTheme">Izaberite izgled:</string>
+    <string name="gradient">Gradijent</string>
+    <string name="coloured_status_icons">Ikonice statusa vremena u boji</string>
+    <string name="TimeFormat">24-satni format</string>
+    <string name="ChooseLang">Izaberite jezik</string>
+    <string name="choose_city">Izaberi grad:</string>
+    <string name="abort">Otkaži</string>
+    <string name="error_occurred">Pojavila se greška, stari podaci se učitavaju! Vjerovatno ste dostigli API-limit ili nema internet veze…</string>
+    <string name="error_1">API ključ nije aktivan ili nije naveden!</string>
+    <string name="error_2">Grad je nevažeći ili nije naveden!</string>
+    <string name="error_3">Molimo provjerite svoju internetsku vezu!</string>
+    <string name="reportError">Pronašli ste grešku\? Čudno ponašanje aplikacije\?
+\nPrijavite preko <a href="https://codeberg.org/BeoCode/Weather/issues">Codeberg</a> ili na <a href="mailto:weather@beocode.eu">e-mail</a></string>
+    <string name="created_by">Kreirao <a href="https://codeberg.org/BeoCode/Weather">BeoCode</a> licencirano pod <a href="https://codeberg.org/BeoCode/Weather/src/branch/main/LICENSE">EUPL-1.2</a></string>
+    <string name="OWM">Podaci dostavljeni sa <a href="https://openweathermap.org/">OpenWeatherMap</a> licencirani pod <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a></string>
+    <string name="Icons"><a href="https://erikflowers.github.io/weather-icons/">Ikone</a> kreirane od strane <a href="https://www.twitter.com/erik_flowers">E. Flowers</a> &amp; <a href="https://www.twitter.com/artill">L. Bischoff</a> licencirano pod <a href="https://scripts.sil.org/OFL">SIL OFL 1.1</a></string>
+    <string name="configureWidget">Podesite widget</string>
+    <string name="widgetBackTrans">Podesite pozadinu widget-a providnom</string>
+    <string name="ShowUpdatedAt">Ne prikazujte \"Ažurirano:\"</string>
+    <string name="widgetUpdateInterval">Podesite interval ažuriranja widget-a (za sve widgete)</string>
+    <string name="widgetUpdateIntervalUnit">min</string>
+    <string name="widgetUpdateIntervalToShort">Pozor: Tako kratak interval ažuriranja nije dozvoljen za standardni ključ. Zbog toga je interval podešen na 30 minuta.</string>
+    <string name="updated">Ažurirano:</string>
+    <string name="weatherMaps">Meteorološke karte</string>
+    <string name="feels">Osjeća se kao</string>
+    <string name="weatherAlerts">Postoje vremenska upozorenja…</string>
+    <string name="daytime">Dan</string>
+    <string name="sunrise">Izlazak sunca</string>
+    <string name="sunset">Zalazak sunca</string>
+    <string name="wind">Vjetar</string>
+    <string name="pressure">Pritisak</string>
+    <string name="humidity">Vlažnost</string>
+    <string name="rain">Kiša</string>
+    <string name="rainCloud">Kiša &amp; Oblačnost</string>
+    <string name="rainRadar">Radar za kišu</string>
+    <string name="snow">Snijeg</string>
+    <string name="cloudiness">Oblačnost</string>
+    <string name="visibility">Vidljivost</string>
+    <string name="uvIndex">UV indeks</string>
+    <string name="windGust">Udari vjetra</string>
+    <string name="temperature">Temperatura</string>
+    <string name="Min">Min</string>
+    <string name="Max">Mak</string>
+    <string name="date">dd.MM.yyyy</string>
+    <string name="daymonthdate">E, dd.MM</string>
+    <string name="today">Danas</string>
+    <string name="tomorrow">Sutra</string>
+    <string name="save">Sačuvati</string>
+    <string name="add">Dodati</string>
+    <string name="options">Postavke</string>
+    <string name="switchCity">Zamijeni %1$s sa glavnim gradom (%2$s)</string>
+    <string name="removeCity">Ukloniti %s</string>
+    <string name="alarm">Alarm</string>
+    <string name="themes_light">Svijetla</string>
+    <string name="themes_dark">Tamna</string>
+    <string name="themes_red">Crvena</string>
+    <string name="themes_sand">Pješčana</string>
+    <string name="themes_blue">Plava</string>
+    <string name="degree_north">S</string>
+    <string name="degree_north_north_east">SSI</string>
+    <string name="degree_north_east">SI</string>
+    <string name="degree_east_north_east">ISI</string>
+    <string name="degree_east">I</string>
+    <string name="degree_east_south_east">IJI</string>
+    <string name="degree_south_east">JI</string>
+    <string name="degree_south_south_east">JJI</string>
+    <string name="degree_south">J</string>
+    <string name="degree_south_south_west">JJZ</string>
+    <string name="degree_south_west">JZ</string>
+    <string name="degree_west_south_west">ZJZ</string>
+    <string name="degree_west">Z</string>
+    <string name="degree_west_north_west">ZSZ</string>
+    <string name="degree_north_west">SZ</string>
+    <string name="degree_north_north_west">SSZ</string>
+    <string name="temp_kelvin">K</string>
+    <string name="temp_celsius">°C</string>
+    <string name="temp_fahrenheit">°F</string>
+    <string name="speed_meters_per_seconds">m/s</string>
+    <string name="speed_kilometers_per_hour">km/h</string>
+    <string name="speed_miles_per_hour">mph</string>
+    <string name="speed_beaufort">Bf</string>
+    <string name="speed_knot">čvor</string>
+    <string name="distance_millimeter">mm</string>
+    <string name="distance_inch">in</string>
+    <string name="pressure_hectopascal">hPa</string>
+    <string name="pressure_kilopascal">kPa</string>
+    <string name="pressure_millimeters_of_mercury">mm Hg</string>
+    <string name="pressure_inch_of_mercury">in Hg</string>
+    <string name="pressure_pounds_per_square_inch">psi</string>
+    <string name="pressure_atmosphere">atm</string>
+    <string name="widgetColour" tools:ignore="MissingTranslation">Podesi boju grafičkog elementa</string>
+    <string name="red" tools:ignore="MissingTranslation">Crvena</string>
+    <string name="blue" tools:ignore="MissingTranslation">Plava</string>
+    <string name="highlightDay" tools:ignore="MissingTranslation">Istaknuti dan</string>
+    <string name="green" tools:ignore="MissingTranslation">Zelena</string>
+    <string name="themes_system" tools:ignore="MissingTranslation">Sistem (Svjetlo/Tamno)</string>
+</resources>

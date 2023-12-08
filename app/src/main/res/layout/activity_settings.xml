@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/bg_gradient"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/mainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/DataLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/status03d"
+            app:tint="?attr/frontColor" />
+
+        <LinearLayout
+            android:id="@+id/DataLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:text="@string/city"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp">
+
+                <EditText
+                    android:id="@+id/City"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@id/GetLocation"
+                    android:layout_toLeftOf="@id/GetLocation"
+                    android:autofillHints=""
+                    android:hint="@string/city"
+                    android:inputType="text"
+                    android:textColor="?frontColor"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/GetLocation"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/detect_location"
+                    android:src="@drawable/detect_location"
+                    app:tint="?attr/frontColor" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/ApiText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:text="@string/api_key"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Api"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:autofillHints=""
+                android:hint="@string/enter_your_openweathermap_api_key"
+                android:inputType="text"
+                android:textColor="?frontColor"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/UISettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="10dp"
+                android:background="?attr/bg_round"
+                android:paddingHorizontal="10dp"
+                android:text="@string/UiSettings"
+                android:textAllCaps="false"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/Submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="20dp"
+                android:background="?attr/bg_round"
+                android:text="@string/submit_data" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ReportError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/CreatedBy"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:paddingBottom="2dp"
+            android:text="@string/reportError"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/CreatedBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/OWM"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:paddingBottom="4dp"
+            android:text="@string/created_by"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/OWM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/Icon"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:paddingBottom="1dp"
+            android:text="@string/OWM"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:paddingBottom="2dp"
+            android:text="@string/Icons"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,343 @@
+# Version 3.20
+- fixed extensive API usage (edit and save at least one widget) (thx @oldnomad for the hint)
+- improved graphs
+- improved main screen
+- AppWidget now displays highest & lowest temperature
+- coloured icons no longer in Beta
+- added Croatian (thx @SecularSteve)
+- added Indonesian (thx @t12)
+- added Irish (thx @mondstern)
+- added Slovak (thx @jan_v)
+- updated translations
+
+##
+# Version 3.19.1
+- Crash fixed
+- Added Turkish (thx Önder Nuray)
+
+##
+# Version 3.19
+- open calendar when date is clicked (TimeWidget)
+- divider  in hour forecast improved/fixed
+- fix for height problems (AppWidget)
+- seventh item re-added to the daily forecast widget
+- updated translations
+
+##
+# Version 3.18.1
+- fixed fdroid build
+
+##
+# Version 3.18
+- customize font color (widget) (#25)
+- new theme (light/dark mode based on system) (#3)
+- highlight date (time widget) (#22)
+- error messages improved
+- improvements in the background
+
+##
+# Version 3.17
+- The update interval for widgets is now changeable (#14)
+- You can now make settings per widget:
+    - Hide "Updated:"
+    - transparent widget background (forecast widgets) (#23)
+- °C is now the default temperature unit (#23)
+- Data is no longer chopped off in the forecast widgets (#22)
+- Translations updated - thx to all translators
+
+##
+# Version 3.16
+- Ukrainian added (thx Andrij Mizyk)
+- coloured status icons (can be activated in the settings - beta)
+- moved cities-/map-icon to bottom
+- fixed problem with too long city names
+- fixed display error in app widget
+
+##
+# Version 3.15
+- Project moved to Codeberg
+- Added weather alerts
+- Added Chinese (simplified) (thx Aerowolf, Bob Wong)
+- Added Czech (thx mondstern)
+- Added Esperanto (thx mondstern, AnimatorzPolski)
+- Possibility to hide "Updated:" (Widgets)
+- Highlight weekends in forecast
+- Gesture Navigation background corrected
+- fixed splashscreen color
+- Other small improvements
+- PrivacyPolicy updated
+
+##
+# Version 3.14
+- language can be set in the app
+- added rain radar
+- widgets show last update & have update button
+
+##
+# Version 3.13
+- added automatic location detection (Opt-in)
+- added macedonian translation (thx Tvirin)
+- added bosnian translation (thx Eru)
+
+##
+# Version 3.12
+- weather status now also in polish
+- text color in forecast widgets changed
+- small fixes
+
+##
+# Version 3.11
+- fixed that app comes in foreground
+- improved graphs
+    - added Grid to Graphs
+    - integrated amount of rain in precipitation graph
+- location detection now displays the full city name
+- added polisch (thx Gnu. ewm)
+- improve widgets
+    - hour widget: update with "current" data, also when data is old
+    - reduced forecast widgets from 7 to 6 items
+- fixed that yesterday is displayed as tomorrow (hour view)
+
+##
+# Version 3.10
+
+- App prepared for Android 12
+- automatic location detection (via button) added
+- new units:
+    - speed: kn
+    - pressure: kPa; mm Hg; in Hg; psi; atm
+- rain and cloudiness map combined
+- minor bug fixes and improvements
+##
+# Version 3.03.2
+
+- setup screen now opens again on first start-up
+- widgets open the app again, not the settings
+##
+# Version 3.03
+
+- faster app launch
+- added Beaufort scale (wind speed)
+- fixed widget problems with KISS (thx KISS for the fix on their site)
+- improved widget transparency
+- small changes
+##
+# Version 3.02
+
+- small fixes and improvements
+- added Chinese (traditional) (thx WylieYYYY)
+- added Armenian (thx Davit. mayilyan)
+##
+# Version 3.01
+
+- Widgets: Please remove one and add it again
+- map contrast improved
+- added French (thx Sébastien)
+- added Bulgarian (thx Mariyan Borisov)
+- small fixes
+##
+# Version 3.00
+
+- Warning: All Cities in the CitiesList will be removed with this update and must be added manually!
+- new icons added
+- added Italian (thx Gillauino)
+- added Dutch (thx Guillaume)
+- new long-press-settings in CitiesList (to remove/ swap city)
+- CitiesList displays now current and feeled temp (instead of current min/max temp)
+- added pull-to-refresh
+- fixed that graph wasn't scaling
+- app updates every 30min (only when app is open)
+- small improvements/fixes
+##
+# Version 2.22
+
+- added Hour-/DayForecastWidgets
+- widgets now works like expected
+- gradient is now deactivatable
+- added Greek (thx zernex201)
+##
+# Version 2.21.2
+
+- fixed that widgets don't update
+- Day-Graph now shows maximum and minimum temperature
+- Hour-Graph expanded from 8 to 16 hours
+- added more information to forecast (wind gust, uv index)
+- widget backend rewritten/improved, first steps for more widgets (reduced API usage up to 50%)
+##
+# Version 2.21.1
+
+- fixed that widgets don't update
+- Day-Graph now shows maximum and minimum temperature
+- Hour-Graph expanded from 8 to 16 hours
+- added more information to forecast (wind gust, uv index)
+- widget backend rewritten/improved, first steps for more widgets (reduced API usage up to 50%)
+##
+# Version 2.21
+
+- Day-Graph now shows maximum and minimum temperature
+- Hour-Graph expanded from 8 to 16 hours
+- added more information to forecast (wind gust, uv index)
+- widget backend rewritten/improved, first steps for more widgets (reduced API usage up to 50%)
+##
+# Version 2.20
+
+- Fixed bug that the app did not work on old devices
+- themes added (Light, Dark, Red, Sand, Blue)
+- Graphs redesigned
+- Time on the widget scales better and alarm day is now localised
+- Fixed permission for some devices for open the alarm app
+- Serbian (latin) translation added (thx mike.llee)
+- Russian translation added (thx rikishi0071)
+##
+# Version 2.11.1
+
+- fixes bug with AppWidget
+- change License to European Union Public License 1.2
+##
+# Version 2.11
+
+- clicking on the clock (widget) now opens the alarm overview
+- Spanish translation added (thx @jorge_mv)
+- Georgian translation added (thx @ijiki16)
+- next alarm is now displayed in the widget
+- more units added
+- units can now be selected independently
+- on set up, possible cities are given for selection.
+- choose between 12-/24-hour format
+- reduced API-usage (when using widgets)
+##
+# Version 2.10
+
+- added weather maps
+- new standard API-Key (thx to OpenWeatherMap)
+- improved error messages during setup
+- Finnish translation added (thx @Nekromanser)
+- Units added to graphs
+- Typos fixed
+##
+# Version 2.04
+
+- fixed a crash, that sometimes occurs
+- fixed that widgets are not displayed
+- added update button to update manually
+##
+# Version 2.03
+
+- fixed that widgets are not displayed
+##
+# Version 2.02
+
+- Added landscape layout
+- small bug fixes
+##
+# Version 2.01
+
+- Completely rewritten frontend
+##
+# Version 2.00
+
+- Completely rewritten frontend
+##
+# Version 1.50
+
+- Added second widget
+##
+# Version 1.42
+
+- Fixed app crashes when displaying multiple cities
+##
+# Version 1.41
+
+- small bug fixes
+##
+# Version 1.40
+
+- Support for multiple cities (swipe up to access)
+- Support for portuguese
+##
+# Version 1.31
+
+- implemented test API-Key
+- fixed that some icons are displayed black
+- small bug fix for the graph
+##
+# Version 1.30
+
+- Added one Widget, different info's depending on size - updates every 15 minutes when the display is on
+- fixed that some icons are displayed black
+- Weather data download completely rewritten
+- small bug fix for the graph
+##
+# Version 1.21
+
+- small bug fixes
+##
+# Version 1.20
+
+- Support for multiple units
+- small bug fixes
+##
+# Version 1.14
+
+- 48 hours hourly forecast instead of 7 hours
+##
+# Version 1.13
+
+- The decimal separator will now be displayed according to the region
+##
+# Version 1.12
+
+- old data will now be loaded when the API limit has been reached or when no internet connection is available
+- small bug fixes
+##
+# Version 1.11
+
+- small bug fixes
+##
+# Version 1.10
+
+- implemented graph for temperature and probability of precipitation
+##
+# Version 1.06
+
+- implemented graph for temperature and probability of precipitation
+##
+# Version 1.05
+
+- small fixes and improvements
+##
+# Version 1.04
+
+- Wipe gestures adjusted and improved
+- Snowfall will now be displayed (only when it snows)
+##
+# Version 1.03
+
+- Wipe gesture added to day/hour forecast
+- fixed that the probability of precipitation is displayed correctly
+##
+# Version 1.02
+
+- fixed that the probability of precipitation is displayed correctly
+##
+# Version 1.01
+
+- small bug fixes
+##
+# Version 1.00
+
+- Display of the current weather and seven hours/days forecast
+- Forecast with Left/Right Swipe (current back to main screen with back button)
+- offline mode
+- links updated
+##
+# Version Beta
+
+- Layout fixes
+- crash fixed
+##
+# Version Alpha
+
+- Display of the current weather and seven hours/days forecast
+- Forecast with Left/Right Swipe (current back to main screen with back button)
+##

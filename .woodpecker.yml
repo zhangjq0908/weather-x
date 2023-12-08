@@ -1,0 +1,41 @@
+pipeline:
+  lintDebug:
+    image: jangrewe/gitlab-ci-android
+    pull: true
+    commands:
+      - ./gradlew -Pci --console=plain :app:lintDebug -PbuildDir=lint --no-daemon
+  debugTests:
+    image: jangrewe/gitlab-ci-android
+    pull: true
+    commands:
+      - ./gradlew -Pci --console=plain :app:testDebug --no-daemon
+  assembleDebug:
+    when:
+      event: [push, pull_request, deployment]
+    image: jangrewe/gitlab-ci-android
+    pull: true
+    commands:
+      - ./gradlew assembleDebug --no-daemon
+  assembleRelease:
+    when:
+      event: tag
+    image: jangrewe/gitlab-ci-android
+    pull: true
+    commands:
+      - echo $KEYSTORE_FILE | base64 -di > my.jks
+      - ./gradlew assembleRelease --no-daemon
+        -Pandroid.injected.signing.store.file=$(pwd)/my.jks
+        -Pandroid.injected.signing.store.password=$KEYSTORE_PASSWORD
+        -Pandroid.injected.signing.key.alias=$KEY_ALIAS
+        -Pandroid.injected.signing.key.password=$KEY_PASSWORD
+    secrets: [ keystore_file , keystore_password , key_alias , key_password ]
+  addApkToRelease:
+    when:
+      event: tag
+    image: plugins/gitea-release
+    pull: true
+    settings:
+      base_url: https://codeberg.org
+      api_key:
+        from_secret: token
+      files: app/build/outputs/apk/release/app-release.apk

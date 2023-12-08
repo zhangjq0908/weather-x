@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="TimeFormat" tools:ignore="MissingTranslation">Formáid 24 uair an chloig</string>
+    <string name="coloured_status_icons" tools:ignore="MissingTranslation">Deilbhíní stádais dhaite</string>
+    <string name="gradient" tools:ignore="MissingTranslation">Grádán</string>
+    <string name="chooseTheme" tools:ignore="MissingTranslation">Téama:</string>
+    <string name="unit2" tools:ignore="MissingTranslation">Aonaid (Báisteach | Brú)</string>
+    <string name="enter_your_openweathermap_api_key" tools:ignore="MissingTranslation">Cuir isteach do eochair API féin</string>
+    <string name="api_key" tools:ignore="MissingTranslation">Eochair API (cliceáil le haghaidh info)</string>
+    <string name="detect_location_permission_not_granted" tools:ignore="MissingTranslation">Ní thugtar Ceadanna suímh.
+\nDeonaigh é sna socruithe (deilbhín GPS).</string>
+    <string name="detect_location_activate" tools:ignore="MissingTranslation">Níl an suíomh cumasaithe. Gníomhachtaigh sé a bhaint as an fheidhm.</string>
+    <string name="detect_location_search" tools:ignore="MissingTranslation">Ag fáil do shuíomh…</string>
+    <string name="detect_location" tools:ignore="MissingTranslation">Braith suíomh</string>
+    <string name="city" tools:ignore="MissingTranslation">Cathair</string>
+    <string name="logo" tools:ignore="MissingTranslation">Lógó</string>
+    <string name="feels" tools:ignore="MissingTranslation">Mothaíonn cosúil le</string>
+    <string name="weatherMaps" tools:ignore="MissingTranslation">Léarscáileanna aimsire</string>
+    <string name="updated" tools:ignore="MissingTranslation">Nuashonraithe:</string>
+    <string name="widgetUpdateInterval" tools:ignore="MissingTranslation">Socraigh eatramh idir nuashonruithe giuirléidí (do gach giuirléid)</string>
+    <string name="blue" tools:ignore="MissingTranslation">Gorm</string>
+    <string name="green" tools:ignore="MissingTranslation">Uaine</string>
+    <string name="red" tools:ignore="MissingTranslation">Dearg</string>
+    <string name="widgetColour" tools:ignore="MissingTranslation">Saincheap dath na giuirléidí</string>
+    <string name="highlightDay" tools:ignore="MissingTranslation">Aibhsigh lá</string>
+    <string name="ShowUpdatedAt" tools:ignore="MissingTranslation">Ná taispeáin \"Nuashonrú:\"</string>
+    <string name="widgetBackTrans" tools:ignore="MissingTranslation">Déan cúlra na giuirléide trédhearcach</string>
+    <string name="configureWidget" tools:ignore="MissingTranslation">Cumraigh giuirléid</string>
+    <string name="error_3" tools:ignore="MissingTranslation">Seiceáil do cheangal idirlín le do thoil!</string>
+    <string name="error_2" tools:ignore="MissingTranslation">Tá an chathair neamhbhailí nó nach bhfuil sonraithe!</string>
+    <string name="error_occurred" tools:ignore="MissingTranslation">Tharla earráid, luchtófar seansonraí! Tá tú bainte amach is dócha an teorainn API nó aon nasc…</string>
+    <string name="abort" tools:ignore="MissingTranslation">Tobscoir</string>
+    <string name="choose_city" tools:ignore="MissingTranslation">Roghnaigh do chathair:</string>
+    <string name="ChooseLang" tools:ignore="MissingTranslation">Roghnaigh Teanga</string>
+    <string name="themes_sand" tools:ignore="MissingTranslation">Gaineamh</string>
+    <string name="themes_red" tools:ignore="MissingTranslation">Dearg</string>
+    <string name="themes_dark" tools:ignore="MissingTranslation">Dorcha</string>
+    <string name="themes_light" tools:ignore="MissingTranslation">Solas</string>
+    <string name="themes_system" tools:ignore="MissingTranslation">Córas (Solas/Dorcha)</string>
+    <string name="alarm" tools:ignore="MissingTranslation">Aláram</string>
+    <string name="removeCity" tools:ignore="MissingTranslation">Scrios %s</string>
+    <string name="options" tools:ignore="MissingTranslation">Roghanna</string>
+    <string name="add" tools:ignore="MissingTranslation">Cuir leis</string>
+    <string name="save" tools:ignore="MissingTranslation">Sábháil</string>
+    <string name="tomorrow" tools:ignore="MissingTranslation">Amárach</string>
+    <string name="today" tools:ignore="MissingTranslation">Inniu</string>
+    <string name="daymonthdate" tools:ignore="MissingTranslation">E, dd.MM</string>
+    <string name="date" tools:ignore="MissingTranslation">dd.MM.yyyy</string>
+    <string name="Max" tools:ignore="MissingTranslation">Uas</string>
+    <string name="Min" tools:ignore="MissingTranslation">Íos</string>
+    <string name="temperature" tools:ignore="MissingTranslation">Teocht</string>
+    <string name="windGust" tools:ignore="MissingTranslation">Séideán Gaoithe</string>
+    <string name="uvIndex" tools:ignore="MissingTranslation">Innéacs UV</string>
+    <string name="visibility" tools:ignore="MissingTranslation">Infheictheacht</string>
+    <string name="cloudiness" tools:ignore="MissingTranslation">Scamallacht</string>
+    <string name="rainRadar" tools:ignore="MissingTranslation">Radar báistí</string>
+    <string name="rainCloud" tools:ignore="MissingTranslation">Báisteach &amp; Scamallacht</string>
+    <string name="rain" tools:ignore="MissingTranslation">Báisteach</string>
+    <string name="humidity" tools:ignore="MissingTranslation">Bogthaise</string>
+    <string name="pressure" tools:ignore="MissingTranslation">Brú</string>
+    <string name="wind" tools:ignore="MissingTranslation">Gaoth</string>
+    <string name="sunset" tools:ignore="MissingTranslation">Luí na gréine</string>
+    <string name="sunrise" tools:ignore="MissingTranslation">Éirí na gréine</string>
+    <string name="weatherAlerts" tools:ignore="MissingTranslation">Tá foláirimh aimsire ann…</string>
+    <string name="themes_blue" tools:ignore="MissingTranslation">Gorm</string>
+    <string name="switchCity" tools:ignore="MissingTranslation">Babhtáil %1$s leis an bpríomhchathair (%2$s)</string>
+    <string name="status" tools:ignore="MissingTranslation">Stádas</string>
+    <string name="unit1" tools:ignore="MissingTranslation">Aonaid (Teocht | Gaoth)</string>
+    <string name="detect_location_new_location" tools:ignore="MissingTranslation">Braitheadh Suíomh nua. Atosaigh le suíomh nua…</string>
+    <string name="detect_location_automatic" tools:ignore="MissingTranslation">Braith suíomh go huathoibríoch</string>
+    <string name="snow" tools:ignore="MissingTranslation">Sneachta</string>
+    <string name="daytime" tools:ignore="MissingTranslation">I rith an lae</string>
+    <string name="widgetUpdateIntervalToShort" tools:ignore="MissingTranslation">Nóta: ní cheadaítear eatramh gearr nuashonraithe den sórt sin don eochair chaighdeánach. Dá bhrí sin, socraíodh an t-eatramh nuashonraithe go 30 nóiméad.</string>
+    <string name="error_1" tools:ignore="MissingTranslation">Níl an eochair API gníomhach nó nach bhfuil sonraithe!</string>
+    <string name="submit_data" tools:ignore="MissingTranslation">Cuir sonraí isteach</string>
+</resources>

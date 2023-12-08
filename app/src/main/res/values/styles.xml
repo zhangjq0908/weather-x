@@ -1,0 +1,152 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="LightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryLight</item>
+        <item name="colorAccent">@color/colorAccentLight</item>
+        <item name="android:textColor">@color/frontColorLight</item>
+        <item name="android:textColorHint">@color/hintColorLight</item>
+        <item name="editTextColor">@color/frontColorLight</item>
+        <item name="frontColor">@color/frontColorLight</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/colorBackEndLight</item>
+        <item name="android:windowBackground">@color/colorPrimaryLight</item>
+
+        <item name="sun">@color/sun</item>
+        <item name="clouds_gust">@color/clouds_gust_darker</item>
+        <item name="clouds">@color/clouds_darker</item>
+        <item name="broken_clouds">@color/broken_clouds_darker</item>
+        <item name="few_rain">@color/few_rain_blue</item>
+        <item name="rain">@color/rain_blue</item>
+        <item name="storm">@color/storm</item>
+        <item name="snow">@color/frontColorLight</item>
+
+        <item name="AlertBackground">@color/colorPrimaryLight</item>
+        <item name="bg_gradient">@drawable/bg_gradient_light</item>
+        <item name="bg_round">@drawable/bg_round_light</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccentDark</item>
+        <item name="android:textColor">@color/frontColorDark</item>
+        <item name="android:textColorHint">@color/hintColorDark</item>
+        <item name="frontColor">@color/frontColorDark</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/colorBackEndDark</item>
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+
+        <item name="sun">@color/sun</item>
+        <item name="clouds_gust">@color/clouds_gust</item>
+        <item name="clouds">@color/clouds</item>
+        <item name="broken_clouds">@color/broken_clouds</item>
+        <item name="few_rain">@color/few_rain_blue</item>
+        <item name="rain">@color/rain_blue</item>
+        <item name="storm">@color/storm</item>
+        <item name="snow">@color/snow_white</item>
+
+        <item name="AlertBackground">@color/colorPrimaryDark</item>
+        <item name="bg_gradient">@drawable/bg_gradient_dark</item>
+        <item name="bg_round">@drawable/bg_round_dark_red</item>
+    </style>
+
+    <style name="RedTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryRed</item>
+        <item name="colorAccent">@color/colorAccentRed</item>
+        <item name="android:textColor">@color/frontColorRed</item>
+        <item name="android:textColorHint">@color/hintColorRed</item>
+        <item name="editTextColor">@color/frontColorRed</item>
+        <item name="frontColor">@color/frontColorRed</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/colorBackEndRed</item>
+        <item name="android:windowBackground">@color/colorPrimaryRed</item>
+
+        <item name="sun">@color/sun_brighter</item>
+        <item name="clouds_gust">@color/clouds_gust</item>
+        <item name="clouds">@color/clouds</item>
+        <item name="broken_clouds">@color/broken_clouds</item>
+        <item name="few_rain">@color/few_rain_blue</item>
+        <item name="rain">@color/rain_blue</item>
+        <item name="storm">@color/storm</item>
+        <item name="snow">@color/snow_white</item>
+
+        <item name="AlertBackground">@color/colorPrimaryRed</item>
+        <item name="bg_gradient">@drawable/bg_gradient_red</item>
+        <item name="bg_round">@drawable/bg_round_dark_red</item>
+    </style>
+
+    <style name="SandTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimarySand</item>
+        <item name="colorAccent">@color/colorAccentSand</item>
+        <item name="android:textColor">@color/frontColorSand</item>
+        <item name="android:textColorHint">@color/hintColorSand</item>
+        <item name="editTextColor">@color/frontColorSand</item>
+        <item name="frontColor">@color/frontColorSand</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/colorBackEndSand</item>
+        <item name="android:windowBackground">@color/colorPrimarySand</item>
+
+        <item name="sun">@color/sun</item>
+        <item name="clouds_gust">@color/clouds_gust_darker</item>
+        <item name="clouds">@color/clouds_darker</item>
+        <item name="broken_clouds">@color/broken_clouds_darker</item>
+        <item name="few_rain">@color/few_rain_blue</item>
+        <item name="rain">@color/rain_blue</item>
+        <item name="storm">@color/storm</item>
+        <item name="snow">@color/snow_white</item>
+
+        <item name="AlertBackground">@color/colorPrimarySand</item>
+        <item name="bg_gradient">@drawable/bg_gradient_sand</item>
+        <item name="bg_round">@drawable/bg_round_sand</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="BlueTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryBlue</item>
+        <item name="colorAccent">@color/colorAccentBlue</item>
+        <item name="android:textColor">@color/frontColorBlue</item>
+        <item name="android:textColorHint">@color/hintColorBlue</item>
+        <item name="editTextColor">@color/frontColorBlue</item>
+        <item name="frontColor">@color/frontColorBlue</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/colorBackEndBlue</item>
+        <item name="android:windowBackground">@color/colorPrimaryBlue</item>
+
+        <item name="sun">@color/sun_brighter</item>
+        <item name="clouds_gust">@color/clouds_gust_darker</item>
+        <item name="clouds">@color/clouds_darker</item>
+        <item name="broken_clouds">@color/broken_clouds_darker</item>
+        <item name="few_rain">@color/few_rain_blue_darker</item>
+        <item name="rain">@color/rain_blue_darker</item>
+        <item name="storm">@color/storm</item>
+        <item name="snow">@color/snow_white</item>
+
+        <item name="AlertBackground">@color/colorPrimaryBlue</item>
+        <item name="bg_gradient">@drawable/bg_gradient_blue</item>
+        <item name="bg_round">@drawable/bg_round_blue</item>
+    </style>
+
+    <style name="BlackTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryBlack</item>
+        <item name="colorAccent">@color/colorAccentBlack</item>
+        <item name="android:textColor">@color/frontColorBlack</item>
+        <item name="android:textColorHint">@color/hintColorBlack</item>
+        <item name="frontColor">@color/frontColorBlack</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/colorBackEndBlack</item>
+        <item name="android:windowBackground">@color/colorPrimaryBlack</item>
+
+        <item name="sun">@color/sun</item>
+        <item name="clouds_gust">@color/clouds_gust</item>
+        <item name="clouds">@color/clouds</item>
+        <item name="broken_clouds">@color/broken_clouds</item>
+        <item name="few_rain">@color/few_rain_blue</item>
+        <item name="rain">@color/rain_blue</item>
+        <item name="storm">@color/storm</item>
+        <item name="snow">@color/snow_white</item>
+
+        <item name="AlertBackground">@color/colorPrimaryBlack</item>
+        <item name="bg_gradient">@drawable/bg_gradient_black</item>
+        <item name="bg_round">@drawable/bg_round_dark_red</item>
+    </style>
+
+    <style name="AlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">?attr/AlertBackground</item>
+        <item name="android:textColor">?attr/frontColor</item>
+        <item name="android:textColorAlertDialogListItem">?attr/frontColor</item>
+    </style>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="logo" tools:ignore="MissingTranslation">Logo</string>
+    <string name="detect_location" tools:ignore="MissingTranslation">Deteksi lokasi</string>
+    <string name="detect_location_search" tools:ignore="MissingTranslation">Memperoleh lokasi Anda…</string>
+    <string name="detect_location_activate" tools:ignore="MissingTranslation">Lokasi nonaktif. Aktifkan untuk menggunakan fungsi ini.</string>
+    <string name="detect_location_new_location" tools:ignore="MissingTranslation">Lokasi Baru terdeteksi. Mulai ulang dengan lokasi baru…</string>
+    <string name="api_key" tools:ignore="MissingTranslation">Key API (klik untuk informasi)</string>
+    <string name="enter_your_openweathermap_api_key" tools:ignore="MissingTranslation">Masukkan key API milik Anda</string>
+    <string name="submit_data" tools:ignore="MissingTranslation">Kirim data</string>
+    <string name="UiSettings" tools:ignore="MissingTranslation">Pengaturan Antarmuka</string>
+    <string name="unit1" tools:ignore="MissingTranslation">Satuan (Suhu | Angin)</string>
+    <string name="chooseTheme" tools:ignore="MissingTranslation">Tema:</string>
+    <string name="gradient" tools:ignore="MissingTranslation">Gradien</string>
+    <string name="coloured_status_icons" tools:ignore="MissingTranslation">Ikon status berwarna</string>
+    <string name="TimeFormat" tools:ignore="MissingTranslation">Format 24-jam</string>
+    <string name="ChooseLang" tools:ignore="MissingTranslation">Pilih Bahasa</string>
+    <string name="choose_city" tools:ignore="MissingTranslation">Pilih kota Anda:</string>
+    <string name="error_occurred" tools:ignore="MissingTranslation">Terjadi kesalahan, data lama akan dimuat! Mungkin Anda sudah mencapai batas API atau tidak ada koneksi…</string>
+    <string name="error_1" tools:ignore="MissingTranslation">Key API nonaktif atau belum diatur!</string>
+    <string name="error_2" tools:ignore="MissingTranslation">Kota tidak sah atau belum diatur!</string>
+    <string name="error_3" tools:ignore="MissingTranslation">Harap periksa koneksi internet Anda!</string>
+    <string name="OWM" tools:ignore="MissingTranslation">Data disediakan oleh <a href="https://openweathermap.org/">OpenWeatherMap</a> dengan lisensi <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a></string>
+    <string name="configureWidget" tools:ignore="MissingTranslation">Konfigurasi widget</string>
+    <string name="red" tools:ignore="MissingTranslation">Merah</string>
+    <string name="green" tools:ignore="MissingTranslation">Hijau</string>
+    <string name="blue" tools:ignore="MissingTranslation">Biru</string>
+    <string name="app_name" tools:ignore="MissingTranslation">Cuaca</string>
+    <string name="city" tools:ignore="MissingTranslation">Kota</string>
+    <string name="detect_location_automatic" tools:ignore="MissingTranslation">Deteksi lokasi secara otomatis</string>
+    <string name="detect_location_permission_not_granted" tools:ignore="MissingTranslation">Izin Lokasi tidak diberikan.
+\nBerikan pada setelan (ikon GPS).</string>
+    <string name="reportError" tools:ignore="MissingTranslation">Menemukan kesalahan\? Perilaku aneh\? 
+\nLaporkan di <a href="https://codeberg.org/BeoCode/Weather/issues">Codeberg</a> atau melalui <a href="mailto:weather@beocode.eu">surel</a></string>
+    <string name="created_by" tools:ignore="MissingTranslation">Dibuat oleh <a href="https://codeberg.org/BeoCode/Weather">BeoCode</a> dengan lisensi <a href="https://codeberg.org/BeoCode/Weather/src/branch/main/LICENSE">EUPL-1.2</a></string>
+    <string name="Icons" tools:ignore="MissingTranslation"><a href="https://erikflowers.github.io/weather-icons/">Ikon</a> oleh <a href="https://www.twitter.com/erik_flowers">E. Flowers</a> &amp; <a href="https://www.twitter.com/artill">L. Bischoff</a> dengan lisensi <a href="https://scripts.sil.org/OFL">SIL OFL 1.1</a></string>
+</resources>

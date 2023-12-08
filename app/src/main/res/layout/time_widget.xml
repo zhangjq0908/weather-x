@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TimeWidget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextClock
+        android:id="@+id/Clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-7dp"
+        android:fontFamily="sans-serif-light"
+        android:format12Hour="h:mm"
+        android:lines="1"
+        android:shadowColor="#000000"
+        android:shadowRadius="5"
+        android:textColor="#FFFFFF"
+        android:textSize="70sp"
+        tools:targetApi="jelly_bean_mr1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:gravity="center">
+
+        <TextClock
+            android:id="@+id/dayTextClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:format12Hour="E,  d.  MMM"
+            android:format24Hour="E,  d.  MMM"
+            android:lines="1"
+            android:shadowColor="#000000"
+            android:shadowRadius="5"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            tools:targetApi="jelly_bean_mr1" />
+
+        <ImageView
+            android:id="@+id/AlarmIcon"
+            android:layout_width="14sp"
+            android:layout_height="14sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:contentDescription="@string/alarm"
+            android:shadowColor="#000000"
+            android:shadowRadius="5"
+            android:src="@drawable/alarmclock"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/nextAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif"
+            android:lines="1"
+            android:shadowColor="#000000"
+            android:shadowRadius="5"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Space"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/Status_Image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/status" />
+
+        <TextView
+            android:id="@+id/actualTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:lines="1"
+            android:shadowColor="#000000"
+            android:shadowRadius="5"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/Status_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowRadius="5"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/WindRain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bg_round_widget"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/Snow"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/snow"
+                android:shadowColor="#000000"
+                android:shadowRadius="5"
+                android:src="@drawable/snow"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/Rain"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/rain"
+                android:shadowColor="#000000"
+                android:shadowRadius="5"
+                android:src="@drawable/rain" />
+
+            <TextView
+                android:id="@+id/RainSnow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:lines="1"
+                android:shadowColor="#000000"
+                android:shadowRadius="5"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_widget"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/WindIcon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/wind"
+                android:shadowColor="#000000"
+                android:shadowRadius="5"
+                android:src="@drawable/wind" />
+
+            <TextView
+                android:id="@+id/Wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:lines="1"
+                android:shadowColor="#000000"
+                android:shadowRadius="5"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        tools:ignore="UseCompoundDrawables">
+
+        <TextView
+            android:id="@+id/UpdatedAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:shadowColor="#000000"
+            android:shadowRadius="5"
+            android:paddingHorizontal="1sp"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/UpdatedIcon"
+            android:layout_width="11sp"
+            android:layout_height="11sp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/updated"
+            android:src="@android:drawable/ic_popup_sync" />
+
+    </LinearLayout>
+
+</LinearLayout>

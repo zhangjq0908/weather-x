@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" tools:ignore="MissingTranslation">天气</string>
+    <!---activity_settings.xml-->
+    <string name="status" tools:ignore="MissingTranslation">状态</string>
+    <string name="logo" tools:ignore="MissingTranslation">标志</string>
+    <string name="city" tools:ignore="MissingTranslation">城市</string>
+    <string name="detect_location" tools:ignore="MissingTranslation">检测位置</string>
+    <string name="detect_location_automatic" tools:ignore="MissingTranslation">自动检测位置</string>
+    <string name="detect_location_search" tools:ignore="MissingTranslation">正在获取您的位置...</string>
+    <string name="detect_location_not_found" tools:ignore="MissingTranslation">未找到位置。请重试。</string>
+    <string name="detect_location_activate" tools:ignore="MissingTranslation">位置未启用。启用它以使用该功能。</string>
+    <string name="detect_location_permission_not_granted" tools:ignore="MissingTranslation">未授予位置权限。\n在设置中授予权限（GPS 图标）。</string>
+    <string name="detect_location_new_location" tools:ignore="MissingTranslation">检测到新位置。重新启动并使用新位置...</string>
+    <string name="api_key" tools:ignore="MissingTranslation">API 密钥（点击获取信息）</string>
+    <string name="enter_your_openweathermap_api_key" tools:ignore="MissingTranslation">输入您的 API 密钥</string>
+    <string name="submit_data" tools:ignore="MissingTranslation">提交数据</string>
+    <!-- UI_Settings -->
+    <string name="UiSettings" tools:ignore="MissingTranslation">UI 设置</string>
+    <string name="unit1" tools:ignore="MissingTranslation">单位（温度 | 风）</string>
+    <string name="unit2" tools:ignore="MissingTranslation">单位（雨 | 气压）</string>
+    <string name="chooseTheme" tools:ignore="MissingTranslation">主题：</string>
+    <string name="gradient" tools:ignore="MissingTranslation">渐变</string>
+    <string name="coloured_status_icons" tools:ignore="MissingTranslation">彩色状态图标</string>
+    <string name="TimeFormat" tools:ignore="MissingTranslation">24 小时制</string>
+    <string name="ChooseLang" tools:ignore="MissingTranslation">选择语言</string>
+    <string name="choose_city" tools:ignore="MissingTranslation">选择您的城市：</string>
+    <string name="abort" tools:ignore="MissingTranslation">中止</string>
+    <string name="error_occurred" tools:ignore="MissingTranslation">发生错误，将加载旧数据！您可能已达到 API 限制或无连接...</string>
+    <string name="error_1" tools:ignore="MissingTranslation">API 密钥未激活或未指定！</string>
+    <string name="error_2" tools:ignore="MissingTranslation">城市无效或未指定！</string>
+    <string name="error_3" tools:ignore="MissingTranslation">请检查您的互联网连接！</string>
+    <string name="reportError" tools:ignore="MissingTranslation">发现错误？奇怪的行为？\n在 <a href="https://codeberg.org/BeoCode/Weather/issues">Codeberg</a> 或通过 <a href="mailto:weather@beocode.eu">电子邮件</a> 报告。</string>
+    <string name="created_by" tools:ignore="MissingTranslation">由 <a href="https://codeberg.org/BeoCode/Weather">BeoCode</a> 制作，根据 <a href="https://codeberg.org/BeoCode/Weather/src/branch/main/LICENSE">EUPL-1.2</a> 许可</string>
+    <string name="OWM" tools:ignore="MissingTranslation">数据由 <a href="https://openweathermap.org/">OpenWeatherMap</a> 提供，根据 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> 许可</string>
+    <string name="Icons" tools:ignore="MissingTranslation"><a href="https://erikflowers.github.io/weather-icons/">图标</a> 由 <a href="https://www.twitter.com/erik_flowers">E. Flowers</a> 和 <a href="https://www.twitter.com/artill">L. Bischoff</a> 制作，根据 <a href="https://scripts.sil.org/OFL">SIL OFL 1.1</a> 许可</string>
+    <!-- Conf_Widget -->
+    <string name="app_widget" tools:ignore="MissingTranslation">当前天气</string>
+    <string name="day_forecast_widget" tools:ignore="MissingTranslation">日预报</string>
+    <string name="hour_forecast_widget" tools:ignore="MissingTranslation">小时预报</string>
+    <string name="time_widget" tools:ignore="MissingTranslation">带有当前天气的时钟</string>
+    <string name="configureWidget" tools:ignore="MissingTranslation">配置小部件</string>
+    <string name="widgetBackTrans" tools:ignore="MissingTranslation">使小部件背景透明</string>
+    <string name="ShowUpdatedAt" tools:ignore="MissingTranslation">不显示“更新时间：”</string>
+    <string name="highlightDay" tools:ignore="MissingTranslation">突出显示日期</string>
+    <string name="widgetColour" tools:ignore="MissingTranslation">自定义小部件颜色</string>
+    <string name="red" tools:ignore="MissingTranslation">红色</string>
+    <string name="green" tools:ignore="MissingTranslation">绿色</string>
+    <string name="blue" tools:ignore="MissingTranslation">蓝色</string>
+    <string name="widgetUpdateInterval" tools:ignore="MissingTranslation">设置小部件更新间隔（适用于所有小部件）</string>
+    <string name="widgetUpdateIntervalUnit" tools:ignore="MissingTranslation">分钟</string>
+    <string name="widgetUpdateIntervalToShort" tools:ignore="MissingTranslation">注意：标准键不允许如此短的更新间隔。因此，更新间隔已设置为 30 分钟。</string>
+    <!---activity_main.xml-->
+    <string name="updated" tools:ignore="MissingTranslation">更新时间：</string>
+    <string name="weatherMaps" tools:ignore="MissingTranslation">天气图</string>
+    <string name="feels" tools:ignore="MissingTranslation">体感温度</string>
+    <string name="weatherAlerts" tools:ignore="MissingTranslation">有天气警报...</string>
+    <string name="daytime" tools:ignore="MissingTranslation">白天</string>
+    <string name="sunrise" tools:ignore="MissingTranslation">日出</string>
+    <string name="sunset" tools:ignore="MissingTranslation">日落</string>
+    <string name="wind" tools:ignore="MissingTranslation">风</string>
+    <string name="pressure" tools:ignore="MissingTranslation">气压</string>
+    <string name="humidity" tools:ignore="MissingTranslation">湿度</string>
+    <string name="rain" tools:ignore="MissingTranslation">雨</string>
+    <string name="rainCloud" tools:ignore="MissingTranslation">雨 &amp; 云量</string>
+    <string name="rainRadar" tools:ignore="MissingTranslation">雨量雷达</string>
+    <string name="snow" tools:ignore="MissingTranslation">雪</string>
+    <string name="cloudiness" tools:ignore="MissingTranslation">云量</string>
+    <string name="visibility" tools:ignore="MissingTranslation">能见度</string>
+    <string name="uvIndex" tools:ignore="MissingTranslation">紫外线指数</string>
+    <string name="windGust" tools:ignore="MissingTranslation">阵风</string>
+    <string name="temperature" tools:ignore="MissingTranslation">温度</string>
+    <string name="Min" tools:ignore="MissingTranslation">最低</string>
+    <string name="Max" tools:ignore="MissingTranslation">最高</string>
+    <!---Fragments-->
+    <string name="date" tools:ignore="MissingTranslation">dd.MM.yyyy</string>
+    <string name="daymonthdate" tools:ignore="MissingTranslation">E, dd.MM</string>
+    <string name="today" tools:ignore="MissingTranslation">今天</string>
+    <string name="tomorrow" tools:ignore="MissingTranslation">明天</string>
+    <string name="save" tools:ignore="MissingTranslation">保存</string>
+    <string name="add" tools:ignore="MissingTranslation">添加</string>
+    <string name="options" tools:ignore="MissingTranslation">选项</string>
+    <string name="switchCity" tools:ignore="MissingTranslation">切换 %1$s 到主城市（%2$s）</string>
+    <string name="removeCity" tools:ignore="MissingTranslation">删除 %s</string>
+    <string name="alarm" tools:ignore="MissingTranslation">闹钟</string>
+    <string name="themes_system" tools:ignore="MissingTranslation">系统（明暗模式）</string>
+    <string name="themes_light" tools:ignore="MissingTranslation">明亮</string>
+    <string name="themes_dark" tools:ignore="MissingTranslation">暗黑</string>
+    <string name="themes_red" tools:ignore="MissingTranslation">红色</string>
+    <string name="themes_sand" tools:ignore="MissingTranslation">沙色</string>
+    <string name="themes_blue" tools:ignore="MissingTranslation">蓝色</string>
+    <string name="themes_amoled" tools:ignore="MissingTranslation">AMOLED（黑色）</string>
+    <string name="degree_north" tools:ignore="MissingTranslation">北</string>
+    <string name="degree_north_north_east" tools:ignore="MissingTranslation">NNE</string>
+    <string name="degree_north_east" tools:ignore="MissingTranslation">NE</string>
+    <string name="degree_east_north_east" tools:ignore="MissingTranslation">ENE</string>
+    <string name="degree_east" tools:ignore="MissingTranslation">东</string>
+    <string name="degree_east_south_east" tools:ignore="MissingTranslation">ESE</string>
+<string name="degree_south_east" tools:ignore="MissingTranslation">东南</string>
+<string name="degree_south_south_east" tools:ignore="MissingTranslation">南东</string>
+<string name="degree_south" tools:ignore="MissingTranslation">南</string>
+<string name="degree_south_south_west" tools:ignore="MissingTranslation">南西</string>
+<string name="degree_south_west" tools:ignore="MissingTranslation">西南</string>
+<string name="degree_west_south_west" tools:ignore="MissingTranslation">西南</string>
+<string name="degree_west" tools:ignore="MissingTranslation">西</string>
+<string name="degree_west_north_west" tools:ignore="MissingTranslation">西北</string>
+<string name="degree_north_west" tools:ignore="MissingTranslation">西北</string>
+<string name="degree_north_north_west" tools:ignore="MissingTranslation">北西</string>
+<string name="temp_kelvin" tools:ignore="MissingTranslation">K</string>
+<string name="temp_celsius" tools:ignore="MissingTranslation">℃</string>
+<string name="temp_fahrenheit" tools:ignore="MissingTranslation">℉</string>
+<string name="speed_meters_per_seconds" tools:ignore="MissingTranslation">m/s</string>
+<string name="speed_kilometers_per_hour" tools:ignore="MissingTranslation">km/h</string>
+<string name="speed_miles_per_hour" tools:ignore="MissingTranslation">mph</string>
+<string name="speed_beaufort" tools:ignore="MissingTranslation">bft</string>
+<string name="speed_knot" tools:ignore="MissingTranslation">kn</string>
+<string name="distance_millimeter" tools:ignore="MissingTranslation">mm</string>
+<string name="distance_inch" tools:ignore="MissingTranslation">英寸</string>
+<string name="pressure_hectopascal" tools:ignore="MissingTranslation">hPa</string>
+<string name="pressure_kilopascal" tools:ignore="MissingTranslation">kPa</string>
+<string name="pressure_millimeters_of_mercury" tools:ignore="MissingTranslation">毫米汞柱</string>
+<string name="pressure_inch_of_mercury" tools:ignore="MissingTranslation">英寸汞柱</string>
+<string name="pressure_pounds_per_square_inch" tools:ignore="MissingTranslation">psi</string>
+<string name="pressure_atmosphere" tools:ignore="MissingTranslation">atm</string>
+</resources>
+

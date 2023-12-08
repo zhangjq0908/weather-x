@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Tiempo</string>
+    <string name="status">Status</string>
+    <string name="logo">Logo</string>
+    <string name="city">Ciudad</string>
+    <string name="detect_location">Detectar ubicación</string>
+    <string name="detect_location_automatic">Detectar la ubicación automáticamente</string>
+    <string name="detect_location_search">Obteniendo su ubicación…</string>
+    <string name="detect_location_activate">La ubicación no está activada. Actívelo para utilizar esta función.</string>
+    <string name="detect_location_permission_not_granted">Permisos de ubicación no activados.
+\nPermitir en las configuraciones (Icono de GPS).</string>
+    <string name="detect_location_new_location">Se detecto una nueva ubicación - reiniciar con la nueva ubicación…</string>
+    <string name="api_key">API Key (pulsa para más info)</string>
+    <string name="enter_your_openweathermap_api_key">Introduce tu propia API-Key</string>
+    <string name="submit_data">Enviar</string>
+    <string name="UiSettings">Opciones de visualización</string>
+    <string name="unit1">Unidades (Temp | Viento)</string>
+    <string name="unit2">Unidades (Lluvia | Presión)</string>
+    <string name="chooseTheme">Tema:</string>
+    <string name="gradient">Gradiente</string>
+    <string name="coloured_status_icons">Iconos de estado de color</string>
+    <string name="TimeFormat">Formato de 24 horas</string>
+    <string name="ChooseLang">Selecciona el lenguaje</string>
+    <string name="choose_city">Selecciona tu ciudad:</string>
+    <string name="abort">Cancelar</string>
+    <string name="error_occurred">Se produjo un error. ¡Se usaran datos antiguos! Probablemente se alcanzo el limite de almacenamiento de la API o no hay conexión a internet…</string>
+    <string name="error_1">La clave API no está activa o no se ha especificado!</string>
+    <string name="error_2">La ciudad no es válida o no se ha especificado!</string>
+    <string name="error_3">Por favor, comprueba tu conexión a Internet!</string>
+    <string name="reportError">¿Has encontrado un error\? ¿Un comportamiento extraño\?
+\nRepórtalo en <a href="https://codeberg.org/BeoCode/Weather/issues">Codeberg</a> o vía <a href="mailto:weather@beocode.eu">email</a></string>
+    <string name="created_by">Creado por <a href="https://codeberg.org/BeoCode/Weather">BeoCode</a> bajo licencia <a href="https://codeberg.org/BeoCode/Weather/src/branch/main/LICENSE">EUPL-1.2</a></string>
+    <string name="OWM">Datos ofrecidos por <a href="https://openweathermap.org/">OpenWeatherMap</a> bajo licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a></string>
+    <string name="Icons"><a href="https://erikflowers.github.io/weather-icons/">Iconos</a> de <a href="https://www.twitter.com/erik_flowers">E. Flowers</a> &amp; <a href="https://www.twitter.com/artill">L. Bischoff</a> bajo licencia <a href="https://scripts.sil.org/OFL">SIL OFL 1.1</a></string>
+    <string name="configureWidget">Configurar widget</string>
+    <string name="widgetBackTrans">Hacer transparente el fondo del widget</string>
+    <string name="ShowUpdatedAt">No mostrar \"Actualizado:\"</string>
+    <string name="widgetUpdateInterval">Establecer el intervalo de actualización del widget (para todos los widgets)</string>
+    <string name="widgetUpdateIntervalUnit">min</string>
+    <string name="widgetUpdateIntervalToShort">Nota: Un intervalo de actualización tan corto no está permitido para la clave estándar. Por lo tanto, el intervalo de actualización se ha fijado en 30 minutos.</string>
+    <string name="updated">Actualizado:</string>
+    <string name="weatherMaps">Mapas del tiempo</string>
+    <string name="feels">Sensación</string>
+    <string name="weatherAlerts">Hay alertas climáticas…</string>
+    <string name="sunrise">Amanecer</string>
+    <string name="sunset">Atardecer</string>
+    <string name="wind">Viento</string>
+    <string name="pressure">Presión</string>
+    <string name="humidity">Humedad</string>
+    <string name="rain">Lluvia</string>
+    <string name="rainCloud">Lluvia &amp; Nubosidad</string>
+    <string name="rainRadar">Radar de lluvia</string>
+    <string name="snow">Nieve</string>
+    <string name="cloudiness">Nublado</string>
+    <string name="visibility">Visibilidad</string>
+    <string name="uvIndex">Índice UV</string>
+    <string name="windGust">Ráfaga de viento</string>
+    <string name="temperature">Temperatura</string>
+    <string name="Min">Min</string>
+    <string name="Max">Max</string>
+    <string name="date">dd.MM.yyyy</string>
+    <string name="daymonthdate">E, dd.MM.</string>
+    <string name="today">Hoy</string>
+    <string name="tomorrow">Mañana</string>
+    <string name="save">Guardar</string>
+    <string name="add">Añadir</string>
+    <string name="switchCity">Intercambiar %1$s con la ciudad principal (%2$s)</string>
+    <string name="options">Opciones</string>
+    <string name="removeCity">Eliminar %s</string>
+    <string name="alarm">Alerta</string>
+    <string name="themes_light">luz</string>
+    <string name="themes_dark">oscuro</string>
+    <string name="themes_red">rojo</string>
+    <string name="themes_sand">arena</string>
+    <string name="themes_blue">azul</string>
+    <string name="degree_north">N</string>
+    <string name="degree_north_north_east">NNE</string>
+    <string name="degree_north_east">NE</string>
+    <string name="degree_east_north_east">ENE</string>
+    <string name="degree_east">E</string>
+    <string name="degree_east_south_east">ESE</string>
+    <string name="degree_south_east">SE</string>
+    <string name="degree_south_south_east">SSE</string>
+    <string name="degree_south">S</string>
+    <string name="degree_south_south_west">SSO</string>
+    <string name="degree_south_west">SO</string>
+    <string name="degree_west_south_west">OSO</string>
+    <string name="degree_west">O</string>
+    <string name="degree_west_north_west">ONO</string>
+    <string name="degree_north_west">NO</string>
+    <string name="degree_north_north_west">NNO</string>
+    <string name="temp_kelvin">K</string>
+    <string name="temp_celsius">°C</string>
+    <string name="temp_fahrenheit">°F</string>
+    <string name="speed_meters_per_seconds">m/s</string>
+    <string name="speed_kilometers_per_hour">km/h</string>
+    <string name="speed_miles_per_hour">mph</string>
+    <string name="speed_beaufort">bft</string>
+    <string name="speed_knot">kn</string>
+    <string name="distance_millimeter">mm</string>
+    <string name="distance_inch">in</string>
+    <string name="pressure_hectopascal">hPa</string>
+    <string name="pressure_kilopascal">kPa</string>
+    <string name="pressure_millimeters_of_mercury">mm Hg</string>
+    <string name="pressure_inch_of_mercury">in Hg</string>
+    <string name="pressure_pounds_per_square_inch">psi</string>
+    <string name="pressure_atmosphere">atm</string>
+    <string name="widgetColour" tools:ignore="MissingTranslation">Personalizar color del widget</string>
+    <string name="red" tools:ignore="MissingTranslation">Rojo</string>
+    <string name="green" tools:ignore="MissingTranslation">Verde</string>
+    <string name="blue" tools:ignore="MissingTranslation">Azul</string>
+    <string name="highlightDay" tools:ignore="MissingTranslation">Día destacado</string>
+    <string name="daytime" tools:ignore="MissingTranslation">Durante el día</string>
+    <string name="themes_system" tools:ignore="MissingTranslation">Sistema (Claro/Oscuro)</string>
+</resources>

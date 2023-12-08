@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="logo" tools:ignore="MissingTranslation">ロゴマーク</string>
+    <string name="city" tools:ignore="MissingTranslation">場所</string>
+    <string name="detect_location" tools:ignore="MissingTranslation">現在地</string>
+    <string name="app_name" tools:ignore="MissingTranslation">天気</string>
+</resources>

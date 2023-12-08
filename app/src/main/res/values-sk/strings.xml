@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="detect_location" tools:ignore="MissingTranslation">Zistiť polohu</string>
+    <string name="detect_location_search" tools:ignore="MissingTranslation">Načítava sa poloha…</string>
+    <string name="detect_location_activate" tools:ignore="MissingTranslation">Poloha nie je povolená. Ak chcete funkciu používať, aktivujte ju.</string>
+    <string name="temperature" tools:ignore="MissingTranslation">Teplota</string>
+    <string name="cloudiness" tools:ignore="MissingTranslation">Oblačnosť</string>
+    <string name="visibility" tools:ignore="MissingTranslation">Viditeľnosť</string>
+    <string name="uvIndex" tools:ignore="MissingTranslation">UV Index</string>
+    <string name="windGust" tools:ignore="MissingTranslation">Nárazy Vetra</string>
+    <string name="date" tools:ignore="MissingTranslation">dd.MM.yyyy</string>
+    <string name="daymonthdate" tools:ignore="MissingTranslation">E, dd.MM</string>
+    <string name="today" tools:ignore="MissingTranslation">Dnes</string>
+    <string name="tomorrow" tools:ignore="MissingTranslation">Zajtra</string>
+    <string name="save" tools:ignore="MissingTranslation">Uložiť</string>
+    <string name="add" tools:ignore="MissingTranslation">Pridať</string>
+    <string name="options" tools:ignore="MissingTranslation">Možnosti</string>
+    <string name="logo" tools:ignore="MissingTranslation">Logo</string>
+    <string name="city" tools:ignore="MissingTranslation">Mesto</string>
+    <string name="snow" tools:ignore="MissingTranslation">Sneh</string>
+    <string name="Min" tools:ignore="MissingTranslation">Min</string>
+    <string name="Max" tools:ignore="MissingTranslation">Max</string>
+    <string name="status" tools:ignore="MissingTranslation">Stav</string>
+    <string name="detect_location_new_location" tools:ignore="MissingTranslation">Bola zistená nová poloha. Reštartovať s novou polohou…</string>
+    <string name="api_key" tools:ignore="MissingTranslation">API kľúč (kliknite pre informácie)</string>
+    <string name="enter_your_openweathermap_api_key" tools:ignore="MissingTranslation">Zadajte svoj vlastný kľúč API</string>
+    <string name="submit_data" tools:ignore="MissingTranslation">Odoslať údaje</string>
+    <string name="UiSettings" tools:ignore="MissingTranslation">Nastavenie UI</string>
+    <string name="unit1" tools:ignore="MissingTranslation">Jednotky (Teplota | Vietor)</string>
+    <string name="chooseTheme" tools:ignore="MissingTranslation">Téma:</string>
+    <string name="gradient" tools:ignore="MissingTranslation">Gradientná</string>
+    <string name="coloured_status_icons" tools:ignore="MissingTranslation">Farebné ikony stavu</string>
+    <string name="TimeFormat" tools:ignore="MissingTranslation">24-hodinový formát</string>
+    <string name="ChooseLang" tools:ignore="MissingTranslation">Vyberte Jazyk</string>
+    <string name="choose_city" tools:ignore="MissingTranslation">Vyberte si mesto:</string>
+    <string name="abort" tools:ignore="MissingTranslation">Prerušiť</string>
+    <string name="error_1" tools:ignore="MissingTranslation">Kľúč API nie je aktívny alebo nie je zadaný!</string>
+    <string name="error_2" tools:ignore="MissingTranslation">Mesto je neplatné alebo neuvedené!</string>
+    <string name="error_3" tools:ignore="MissingTranslation">Skontrolujte svoje internetové pripojenie!</string>
+    <string name="OWM" tools:ignore="MissingTranslation">Údaje poskytol <a href="https://openweathermap.org/">OpenWeatherMap</a> licencovaný pod <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a></string>
+    <string name="configureWidget" tools:ignore="MissingTranslation">Konfigurácia widgetu</string>
+    <string name="widgetBackTrans" tools:ignore="MissingTranslation">Nastaviť priehľadné pozadie widgetu</string>
+    <string name="ShowUpdatedAt" tools:ignore="MissingTranslation">Nezobrazovať „Aktualizované:“</string>
+    <string name="highlightDay" tools:ignore="MissingTranslation">Zvýrazniť deň</string>
+    <string name="widgetColour" tools:ignore="MissingTranslation">Prispôsobiť farbu widgetu</string>
+    <string name="red" tools:ignore="MissingTranslation">Červená</string>
+    <string name="green" tools:ignore="MissingTranslation">Zelená</string>
+    <string name="blue" tools:ignore="MissingTranslation">Modrá</string>
+    <string name="widgetUpdateInterval" tools:ignore="MissingTranslation">Nastaviť interval aktualizácie widgetu (pre všetky widgety)</string>
+    <string name="widgetUpdateIntervalUnit" tools:ignore="MissingTranslation">min</string>
+    <string name="widgetUpdateIntervalToShort" tools:ignore="MissingTranslation">Poznámka: Takýto krátky interval aktualizácie nie je povolený pre štandardný kľúč. Interval aktualizácie bol preto nastavený na 30 minút.</string>
+    <string name="updated" tools:ignore="MissingTranslation">Aktualizované:</string>
+    <string name="weatherMaps" tools:ignore="MissingTranslation">Mapy počasia</string>
+    <string name="feels" tools:ignore="MissingTranslation">Pocitová</string>
+    <string name="weatherAlerts" tools:ignore="MissingTranslation">Meteo výstrahy…</string>
+    <string name="daytime" tools:ignore="MissingTranslation">Denný čas</string>
+    <string name="sunrise" tools:ignore="MissingTranslation">Svitanie</string>
+    <string name="sunset" tools:ignore="MissingTranslation">Súmrak</string>
+    <string name="wind" tools:ignore="MissingTranslation">Vietor</string>
+    <string name="pressure" tools:ignore="MissingTranslation">Tlak</string>
+    <string name="humidity" tools:ignore="MissingTranslation">Vlhkosť</string>
+    <string name="rain" tools:ignore="MissingTranslation">Dážď</string>
+    <string name="rainCloud" tools:ignore="MissingTranslation">Dážď a Oblačnosť</string>
+    <string name="app_name" tools:ignore="MissingTranslation">Počasie</string>
+    <string name="removeCity" tools:ignore="MissingTranslation">Vymazať %s</string>
+    <string name="alarm" tools:ignore="MissingTranslation">Alarm</string>
+    <string name="themes_system" tools:ignore="MissingTranslation">Systém (Svetlý/Tmavý)</string>
+    <string name="themes_light" tools:ignore="MissingTranslation">Svetlý</string>
+    <string name="themes_dark" tools:ignore="MissingTranslation">Tmavý</string>
+    <string name="themes_red" tools:ignore="MissingTranslation">Červený</string>
+    <string name="themes_sand" tools:ignore="MissingTranslation">Piesok</string>
+    <string name="themes_blue" tools:ignore="MissingTranslation">Modrý</string>
+    <string name="degree_north" tools:ignore="MissingTranslation">S</string>
+    <string name="degree_north_north_east" tools:ignore="MissingTranslation">SSV</string>
+    <string name="degree_north_east" tools:ignore="MissingTranslation">SV</string>
+    <string name="degree_east_north_east" tools:ignore="MissingTranslation">VSV</string>
+    <string name="degree_east" tools:ignore="MissingTranslation">V</string>
+    <string name="degree_east_south_east" tools:ignore="MissingTranslation">VJV</string>
+    <string name="degree_south_east" tools:ignore="MissingTranslation">JV</string>
+    <string name="degree_south_south_east" tools:ignore="MissingTranslation">JJV</string>
+    <string name="degree_south" tools:ignore="MissingTranslation">J</string>
+    <string name="degree_south_west" tools:ignore="MissingTranslation">JZ</string>
+    <string name="degree_west_south_west" tools:ignore="MissingTranslation">ZJZ</string>
+    <string name="degree_west" tools:ignore="MissingTranslation">Z</string>
+    <string name="degree_west_north_west" tools:ignore="MissingTranslation">ZSZ</string>
+    <string name="degree_north_west" tools:ignore="MissingTranslation">SZ</string>
+    <string name="degree_north_north_west" tools:ignore="MissingTranslation">SSZ</string>
+    <string name="temp_kelvin" tools:ignore="MissingTranslation">K</string>
+    <string name="temp_celsius" tools:ignore="MissingTranslation">°C</string>
+    <string name="temp_fahrenheit" tools:ignore="MissingTranslation">°F</string>
+    <string name="speed_meters_per_seconds" tools:ignore="MissingTranslation">m/s</string>
+    <string name="speed_kilometers_per_hour" tools:ignore="MissingTranslation">km/h</string>
+    <string name="speed_miles_per_hour" tools:ignore="MissingTranslation">mph</string>
+    <string name="speed_beaufort" tools:ignore="MissingTranslation">B</string>
+    <string name="speed_knot" tools:ignore="MissingTranslation">kn</string>
+    <string name="distance_millimeter" tools:ignore="MissingTranslation">mm</string>
+    <string name="distance_inch" tools:ignore="MissingTranslation">in</string>
+    <string name="pressure_hectopascal" tools:ignore="MissingTranslation">hPa</string>
+    <string name="pressure_kilopascal" tools:ignore="MissingTranslation">kpa</string>
+    <string name="pressure_millimeters_of_mercury" tools:ignore="MissingTranslation">mm Hg</string>
+    <string name="pressure_inch_of_mercury" tools:ignore="MissingTranslation">in Hg</string>
+    <string name="pressure_atmosphere" tools:ignore="MissingTranslation">atm</string>
+    <string name="detect_location_automatic" tools:ignore="MissingTranslation">Automaticky zisťovať polohu</string>
+    <string name="detect_location_permission_not_granted" tools:ignore="MissingTranslation">Povolenia pre Polohu neboli udelené.
+\nUdeľte ich v nastaveniach (ikona GPS).</string>
+    <string name="unit2" tools:ignore="MissingTranslation">Jednotky (Dážď | Tlak)</string>
+    <string name="error_occurred" tools:ignore="MissingTranslation">Vyskytla sa chyba, načítajú sa staré údaje! Pravdepodobne ste dosiahli limit API alebo žiadne pripojenie…</string>
+    <string name="reportError" tools:ignore="MissingTranslation">Našli ste chybu\? Zvláštne správanie\?
+\nNahláste to na <a href="https://codeberg.org/BeoCode/Weather/issues">Codeberg</a> alebo na <a href="mailto:weather@beocode.eu">email</a></string>
+    <string name="created_by" tools:ignore="MissingTranslation">Vytvoril <a href="https://codeberg.org/BeoCode/Weather">BeoCode</a> licencovaný pod <a href="https://codeberg.org/BeoCode/Weather/src/branch/main/LICENSE">EUPL-1.2</a></string>
+    <string name="Icons" tools:ignore="MissingTranslation"><a href="https://erikflowers.github.io/weather-icons/">Ikony</a> by <a href="https://www.twitter.com/erik_flowers">E. Flowers</a> &amp; <a href="https://www.twitter.com/artill">L. Bischoff</a> licencovaný pod <a href="https://scripts.sil.org/OFL">SIL OFL 1.1</a></string>
+    <string name="rainRadar" tools:ignore="MissingTranslation">Dažďový radar</string>
+    <string name="switchCity" tools:ignore="MissingTranslation">Vymeniť %1$s s hlavným mestom (%2$s)</string>
+    <string name="degree_south_south_west" tools:ignore="MissingTranslation">JJZ</string>
+    <string name="pressure_pounds_per_square_inch" tools:ignore="MissingTranslation">psi</string>
+</resources>

@@ -1,0 +1,53 @@
+Особенности:
+- текущая погода
+- недельный прогноз (на 7 дней)
+- 48-ми часовой прогноз
+- карта погоды
+- дождевой радар
+- Предупреждения о погоде
+- множество городов
+- множество единиц измерения
+
+Поддерживаемые языки:
+- Английский
+- Армянский
+- Болгарский
+- Босния
+- Эсперанто
+- Грузинский
+- Испанский
+- Китайский (упрощенный)
+- Китайский (традиционный)
+- Македония
+- Немецкий
+- Польский
+- Португальский (БР)
+- Русский
+- Финский
+- Французский
+- голландский
+- греческий
+- Турецкий
+- итальянский
+- сербский
+- украинский
+- чешский
+
+Данные погоды:
+Погодные данные предоставляются <a href="https://openweathermap.org/">OpenWeatherMap.org</a>, под лицензией <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.
+
+Получить ключ API:
+Перейдите на <a href="https://home.openweathermap.org/users/sign_up">OpenWeatherMap.org</a> и зарегистрируйтесь свободно. Активация ключа API может занять некоторое время!
+
+Вики:
+Есть вопросы, нужна помощь в настройке или просто желаете узнать больше о приложении? Обратитесь к <a href="https://codeberg.org/BeoCode/Weather/wiki">Вики</a>.
+
+Лицензирование:
+Лицензировано под <a href="https://codeberg.org/BeoCode/Weather/src/branch/main/LICENSE">EUPL-1.2</a>.
+
+Открытый исходный код:
+Исходный код этого приложения <a href="https://codeberg.org/BeoCode/Weather">открыт</a>.
+Большое спасибо всем <a href="https://codeberg.org/BeoCode/Weather/wiki/Contributors">участникам</a>.
+
+Иконы:
+<a href="https://erikflowers.github.io/weather-icons/">Иконы</a> <a href="https://www.twitter.com/erik_flowers">E. Flowers</a> &amp; <a href="https://www.twitter.com/artill">L. Bischoff</a> под лицензией <a href="https://scripts.sil.org/OFL">SIL OFL 1.1</a>

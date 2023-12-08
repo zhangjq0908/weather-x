@@ -1,0 +1,53 @@
+Funktionen:
+- aktuelles Wetter
+- 7-Tage-Vorhersage
+- 48-Stunden-Vorhersage
+- Wetterkarten
+- Regenradar
+- Wetterwarnungen
+- mehrere Städte
+- mehrere Einheiten
+
+Unterstützte Sprachen:
+- Deutsch (100%)
+- Englisch (100%)
+- Armenisch (70%)
+- Bosnisch (94%)
+- Bulgarisch (94%)
+- Chinesisch (vereinfacht) (100%)
+- Chinesisch (traditionell) (100%)
+- Esperanto (94%)
+- Finnisch (94%)
+- Französisch (100%)
+- Georgisch (78%)
+- Griechisch (88%)
+- Italienisch (94%)
+- Mazedonisch (84%)
+- Niederländisch (100%)
+- Polnisch (100%)
+- Portugiesisch (BR) (94%)
+- Russisch (94%)
+- Serbisch (Latin) (94%)
+- Spanisch (94%)
+- Tschechisch (94%)
+- Türkisch (100%)
+- Ukrainisch (100%)
+
+Wetterdaten:
+Die Wetterdaten werden durch <a href="https://openweathermap.org/">OpenWeatherMap.org</a>, lizenziert unter der <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> bereitgestellt.
+
+Einen API-Schlüssel erhalten:
+Sie müssen sich bei <a href="https://home.openweathermap.org/users/sign_up">OpenWeatherMap.org</a> kostenlos anmelden. Es kann eine Weile dauern, bis der API-Key aktiviert ist!
+
+Wiki:
+Sie haben Fragen, brauchen Hilfe beim Einrichten der App oder wollen einfach mehr darüber wissen? Dann werfen Sie einen Blick in das <a href="https://codeberg.org/BeoCode/Weather/wiki">Wiki</a>.
+
+Lizenzierung:
+Lizenziert unter der <a href="https://codeberg.org/BeoCode/Weather/src/branch/main/LICENSE">EUPL-1.2</a>.
+
+OpenSource:
+Diese Anwendung ist <a href="https://codeberg.org/BeoCode/Weather">OpenSource</a>.
+Vielen Dank an alle <a href="https://codeberg.org/BeoCode/Weather/wiki/Contributors">Mitwirkende</a>.
+
+Icons:
+<a href="https://erikflowers.github.io/weather-icons/">Icons</a> von <a href="https://www.twitter.com/erik_flowers">E. Flowers</a> &amp; <a href="https://www.twitter.com/artill">L. Bischoff</a> lizensiert unter <a href="https://scripts.sil.org/OFL">SIL OFL 1.1</a>.

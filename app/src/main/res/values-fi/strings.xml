@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Sää</string>
+    <string name="status">Tila</string>
+    <string name="logo">Tunnus</string>
+    <string name="city">Kaupunki</string>
+    <string name="detect_location">Havaitse sijainti</string>
+    <string name="detect_location_automatic">Tunnista sijainti automaattisesti</string>
+    <string name="detect_location_search">Sijaintisi saaminen…</string>
+    <string name="detect_location_activate">Sijainti ei ole käytössä. Aktivoi se käyttääksesi tätä toimintoa.</string>
+    <string name="detect_location_permission_not_granted">Sijaintioikeuksia ei ole myönnetty.
+\nMyönnä se asetuksissa (GPS-kuvake).</string>
+    <string name="detect_location_new_location">Uusi sijainti havaittu - käynnistä uudelleen uudella sijainnilla…</string>
+    <string name="api_key">API-avain (lisätietoja napauttamalla)</string>
+    <string name="enter_your_openweathermap_api_key">Anna oma API-avain</string>
+    <string name="submit_data">Lähetä tiedot</string>
+    <string name="UiSettings">Käyttöliittymän asetukset</string>
+    <string name="unit1">Yksiköt (Lämpötila | Tuuli)</string>
+    <string name="unit2">Yksiköt (Vesisade | Ilmanpaine)</string>
+    <string name="chooseTheme">Teema:</string>
+    <string name="gradient">Gradientti</string>
+    <string name="coloured_status_icons">Värilliset tilakuvakkeet</string>
+    <string name="TimeFormat">24 tunnin muoto</string>
+    <string name="ChooseLang">Valitse kieli</string>
+    <string name="choose_city">Valitse kaupunki:</string>
+    <string name="abort">Keskeytä</string>
+    <string name="error_occurred">Virhe tapahtui, ladataan vanhat tiedot! Todennäköisesti saavutit API-rajan tai ei ole yhteyttä…</string>
+    <string name="error_1">API-avain ei ole aktiivinen tai sitä ei ole määritetty!</string>
+    <string name="error_2">Kaupunki on virheellinen tai sitä ei ole määritetty!</string>
+    <string name="error_3">Tarkista verkkoyhteytesi!</string>
+    <string name="reportError">Löytyikö virhe\? Outoa käytöstä\?
+\nIlmoita siitä <a href="https://codeberg.org/BeoCode/Weather/issues">Codeberg</a> tai lähetä <a href="mailto:weather@beocode.eu">sähköpostia</a></string>
+    <string name="created_by">Tehnyt <a href="https://codeberg.org/BeoCode/Weather">BeoCode</a> lisenssillä <a href="https://codeberg.org/BeoCode/Weather/src/branch/main/LICENSE">EUPL-1.2</a></string>
+    <string name="OWM">Tiedot tarjoaa <a href="https://openweathermap.org/">OpenWeatherMap</a> lisenssillä <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a></string>
+    <string name="Icons"><a href="https://erikflowers.github.io/weather-icons/">Icons</a> by <a href="https://www.twitter.com/erik_flowers">E. Flowers</a> &amp; <a href="https://www.twitter.com/artill">L. Bischoff</a> lisenssillä <a href="https://scripts.sil.org/OFL">SIL OFL 1.1</a></string>
+    <string name="configureWidget">Määritä widget</string>
+    <string name="widgetBackTrans">Tee widgetin tausta läpinäkyväksi</string>
+    <string name="ShowUpdatedAt">Älä näytä \"Päivitetty:\"</string>
+    <string name="widgetUpdateInterval">Aseta widgetin päivitysväli (kaikille widgeteille)</string>
+    <string name="widgetUpdateIntervalUnit">min</string>
+    <string name="widgetUpdateIntervalToShort">Huomautus: Näin lyhyt päivitysväli ei ole sallittu vakioavaimelle. Täten päivitysväliksi on asetettu 30 minuuttia.</string>
+    <string name="updated">Päivitetty:</string>
+    <string name="weatherMaps">Sääkartat</string>
+    <string name="feels">Tuntuu kuin</string>
+    <string name="weatherAlerts">On säähälytyksiä…</string>
+    <string name="sunrise">Auringonnousu</string>
+    <string name="sunset">Auringonlasku</string>
+    <string name="wind">Tuuli</string>
+    <string name="pressure">Ilmanpaine</string>
+    <string name="humidity">Ilmankosteus</string>
+    <string name="rain">Vesisade</string>
+    <string name="rainCloud">Vesisade &amp; Pilvisyys</string>
+    <string name="rainRadar">Sadetutka</string>
+    <string name="snow">Lumisade</string>
+    <string name="cloudiness">Pilvisyys</string>
+    <string name="visibility">Näkyvyys</string>
+    <string name="uvIndex">UV-indeksi</string>
+    <string name="windGust">Tuulenpuuska</string>
+    <string name="temperature">Lämpötila</string>
+    <string name="Min">Min</string>
+    <string name="Max">Max</string>
+    <string name="date">dd.MM.yyyy</string>
+    <string name="daymonthdate">E, dd.MM</string>
+    <string name="today">Tänään</string>
+    <string name="tomorrow">Huomenna</string>
+    <string name="save">Tallenna</string>
+    <string name="add">Lisää</string>
+    <string name="options">Vaihtoehdot</string>
+    <string name="switchCity">Vaihda %1$s pääkaupunkiin (%2$s)</string>
+    <string name="removeCity">Poista %s</string>
+    <string name="alarm">Hälytys</string>
+    <string name="themes_light">Vaalea</string>
+    <string name="themes_dark">Tumma</string>
+    <string name="themes_red">Punainen</string>
+    <string name="themes_sand">Hiekka</string>
+    <string name="themes_blue">Sininen</string>
+    <string name="degree_north">N</string>
+    <string name="degree_north_north_east">NNE</string>
+    <string name="degree_north_east">NE</string>
+    <string name="degree_east_north_east">ENE</string>
+    <string name="degree_east">E</string>
+    <string name="degree_east_south_east">ESE</string>
+    <string name="degree_south_east">SE</string>
+    <string name="degree_south_south_east">SSE</string>
+    <string name="degree_south">S</string>
+    <string name="degree_south_south_west">SSW</string>
+    <string name="degree_south_west">SW</string>
+    <string name="degree_west_south_west">WSW</string>
+    <string name="degree_west">W</string>
+    <string name="degree_west_north_west">WNW</string>
+    <string name="degree_north_west">NW</string>
+    <string name="degree_north_north_west">NNW</string>
+    <string name="temp_kelvin">K</string>
+    <string name="temp_celsius">°C</string>
+    <string name="temp_fahrenheit">°F</string>
+    <string name="speed_meters_per_seconds">m/s</string>
+    <string name="speed_kilometers_per_hour">km/h</string>
+    <string name="speed_miles_per_hour">mph</string>
+    <string name="speed_beaufort">bft</string>
+    <string name="speed_knot">kn</string>
+    <string name="distance_millimeter">mm</string>
+    <string name="distance_inch">in</string>
+    <string name="pressure_hectopascal">hPa</string>
+    <string name="pressure_kilopascal">kPa</string>
+    <string name="pressure_millimeters_of_mercury">mm Hg</string>
+    <string name="pressure_inch_of_mercury">in Hg</string>
+    <string name="pressure_pounds_per_square_inch">psi</string>
+    <string name="pressure_atmosphere">atm</string>
+    <string name="highlightDay" tools:ignore="MissingTranslation">Korosta päivä</string>
+    <string name="widgetColour" tools:ignore="MissingTranslation">Mukauta widgetin väriä</string>
+    <string name="green" tools:ignore="MissingTranslation">Vihreä</string>
+    <string name="blue" tools:ignore="MissingTranslation">Sininen</string>
+    <string name="daytime" tools:ignore="MissingTranslation">Päivä</string>
+    <string name="red" tools:ignore="MissingTranslation">Punainen</string>
+    <string name="themes_system" tools:ignore="MissingTranslation">Järjestelmä (vaalea/tumma)</string>
+</resources>

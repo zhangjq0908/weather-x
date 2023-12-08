@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/AddCity"
+        android:orientation="vertical" />
+
+    <RelativeLayout
+        android:id="@+id/AddCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/City"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_toStartOf="@id/Save"
+            android:layout_toLeftOf="@id/Save"
+            android:autofillHints=""
+            android:hint="@string/city"
+            android:textColor="?attr/frontColor"
+            android:inputType="text"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:contentDescription="@string/save"
+            android:src="@android:drawable/ic_menu_search"
+            app:tint="?attr/frontColor" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/Add"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/add"
+        android:padding="5dp"
+        android:src="@android:drawable/ic_menu_add"
+        android:visibility="gone"
+        app:tint="?attr/frontColor" />
+
+</RelativeLayout>

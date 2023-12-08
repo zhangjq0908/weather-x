@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="status" tools:ignore="MissingTranslation">Stanje</string>
+    <string name="logo" tools:ignore="MissingTranslation">Oznaka</string>
+    <string name="city" tools:ignore="MissingTranslation">Grad</string>
+    <string name="detect_location" tools:ignore="MissingTranslation">Otkrijte lokaciju</string>
+    <string name="detect_location_search" tools:ignore="MissingTranslation">Preuzimanje vaše lokacije…</string>
+    <string name="detect_location_activate" tools:ignore="MissingTranslation">Lokacija nije omogućena. Ako želite koristiti ovu funkciju, aktivirajte lokaciju.</string>
+    <string name="detect_location_new_location" tools:ignore="MissingTranslation">Detektovana je nova lokacija - ponovo pokretanje sa novom lokacijom…</string>
+    <string name="api_key" tools:ignore="MissingTranslation">API-ključ (kliknite za info)</string>
+    <string name="enter_your_openweathermap_api_key" tools:ignore="MissingTranslation">Unesite vlastiti API ključ</string>
+    <string name="submit_data" tools:ignore="MissingTranslation">Potvrdi podatke</string>
+    <string name="UiSettings" tools:ignore="MissingTranslation">Postavke prikaza</string>
+    <string name="unit1" tools:ignore="MissingTranslation">Jedinice (Temp | Vjetar)</string>
+    <string name="unit2" tools:ignore="MissingTranslation">Jedinice (Kiša | Pritisak)</string>
+    <string name="chooseTheme" tools:ignore="MissingTranslation">Odaberite izgled:</string>
+    <string name="gradient" tools:ignore="MissingTranslation">Gradijent</string>
+    <string name="coloured_status_icons" tools:ignore="MissingTranslation">Ikonice statusa vremena u boji</string>
+    <string name="ChooseLang" tools:ignore="MissingTranslation">Odaberite jezik</string>
+    <string name="choose_city" tools:ignore="MissingTranslation">Odaberite vaš grad:</string>
+    <string name="abort" tools:ignore="MissingTranslation">Otkaži</string>
+    <string name="error_1" tools:ignore="MissingTranslation">API ključ nije aktivan ili nije naveden!</string>
+    <string name="error_2" tools:ignore="MissingTranslation">Grad je nevažeći ili nije naveden!</string>
+    <string name="error_3" tools:ignore="MissingTranslation">Provjerite svoju internetsku vezu!</string>
+    <string name="created_by" tools:ignore="MissingTranslation">Napravljeno od <a href="https://codeberg.org/BeoCode/Weather">BeoCode</a> licencirano pod skladom sa <a href="https://codeberg.org/BeoCode/Weather/src/branch/main/LICENSE">EUPL-1.2</a></string>
+    <string name="app_name" tools:ignore="MissingTranslation">Vrijeme</string>
+    <string name="detect_location_automatic" tools:ignore="MissingTranslation">Otkrijte lokaciju automatski</string>
+    <string name="detect_location_permission_not_granted" tools:ignore="MissingTranslation">Dozvola za lokaciju nije odobrena.
+\nDodijelite dozvolu u postavkama (GPS ikona).</string>
+    <string name="TimeFormat" tools:ignore="MissingTranslation">24-satni format</string>
+    <string name="error_occurred" tools:ignore="MissingTranslation">Pojavila se greška, stari podaci se učitavaju! Vjerovatno ste pretekli API-limit ili nema internet spoja…</string>
+    <string name="reportError" tools:ignore="MissingTranslation">Nađena neka greška\? Čudno ponašanje\?
+\nPrijavite preko <a href="https://codeberg.org/BeoCode/Weather/issues">Codeberg</a> ili na <a href="mailto:weather@beocode.eu">e-mail</a></string>
+    <string name="rain" tools:ignore="MissingTranslation">Kiša</string>
+    <string name="visibility" tools:ignore="MissingTranslation">Vidljivost</string>
+    <string name="switchCity" tools:ignore="MissingTranslation">Zamijenite %1$s sa glavnim gradom (%2$s)</string>
+    <string name="degree_west_north_west" tools:ignore="MissingTranslation">ZSZ</string>
+    <string name="OWM" tools:ignore="MissingTranslation">Podaci dostavljeni sa <a href="https://openweathermap.org/">OpenWeatherMap</a> licencirani pod <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a></string>
+    <string name="Icons" tools:ignore="MissingTranslation"><a href="https://erikflowers.github.io/weather-icons/">Ikone</a> kreirane od strane <a href="https://www.twitter.com/erik_flowers">E. Flowers</a> &amp; <a href="https://www.twitter.com/artill">L. Bischoff</a> licencirano pod <a href="https://scripts.sil.org/OFL">SIL OFL 1.1</a></string>
+    <string name="configureWidget" tools:ignore="MissingTranslation">Podesite widget</string>
+    <string name="widgetBackTrans" tools:ignore="MissingTranslation">Podesite pozadinu widget-a providnom</string>
+    <string name="ShowUpdatedAt" tools:ignore="MissingTranslation">Ne prikazujte \"Ažurirano:\"</string>
+    <string name="highlightDay" tools:ignore="MissingTranslation">Istaknuti dan</string>
+    <string name="widgetColour" tools:ignore="MissingTranslation">Podesi boju grafičkog elementa</string>
+    <string name="red" tools:ignore="MissingTranslation">Crvena</string>
+    <string name="green" tools:ignore="MissingTranslation">Zelena</string>
+    <string name="blue" tools:ignore="MissingTranslation">Plava</string>
+    <string name="widgetUpdateInterval" tools:ignore="MissingTranslation">Podesite interval ažuriranja widget-a (za sve widgete)</string>
+    <string name="widgetUpdateIntervalUnit" tools:ignore="MissingTranslation">min</string>
+    <string name="widgetUpdateIntervalToShort" tools:ignore="MissingTranslation">Upozorenje: Ovako kratak interval ažuriranja nije dozvoljen za standardni ključ. Zbog toga je interval podešen na 30 minuta.</string>
+    <string name="updated" tools:ignore="MissingTranslation">Ažurirano:</string>
+    <string name="weatherMaps" tools:ignore="MissingTranslation">Meteorološke karte</string>
+    <string name="feels" tools:ignore="MissingTranslation">Osjeća se kao</string>
+    <string name="weatherAlerts" tools:ignore="MissingTranslation">Postoje vremenska upozorenja…</string>
+    <string name="daytime" tools:ignore="MissingTranslation">Dan</string>
+    <string name="sunrise" tools:ignore="MissingTranslation">Izlazak sunca</string>
+    <string name="sunset" tools:ignore="MissingTranslation">Zalazak sunca</string>
+    <string name="wind" tools:ignore="MissingTranslation">Vjetar</string>
+    <string name="pressure" tools:ignore="MissingTranslation">Pritisak</string>
+    <string name="humidity" tools:ignore="MissingTranslation">Vlažnost</string>
+    <string name="rainCloud" tools:ignore="MissingTranslation">Kiša &amp; Oblačnost</string>
+    <string name="rainRadar" tools:ignore="MissingTranslation">Radar za kišu</string>
+    <string name="snow" tools:ignore="MissingTranslation">Snijeg</string>
+    <string name="cloudiness" tools:ignore="MissingTranslation">Oblačnost</string>
+    <string name="uvIndex" tools:ignore="MissingTranslation">UV indeks</string>
+    <string name="windGust" tools:ignore="MissingTranslation">Udari vjetra</string>
+    <string name="temperature" tools:ignore="MissingTranslation">Temperatura</string>
+    <string name="Min" tools:ignore="MissingTranslation">Min</string>
+    <string name="Max" tools:ignore="MissingTranslation">Maks</string>
+    <string name="date" tools:ignore="MissingTranslation">dd.MM.yyyy</string>
+    <string name="daymonthdate" tools:ignore="MissingTranslation">E, dd.MM</string>
+    <string name="today" tools:ignore="MissingTranslation">Danas</string>
+    <string name="tomorrow" tools:ignore="MissingTranslation">Sutra</string>
+    <string name="save" tools:ignore="MissingTranslation">Spasiti</string>
+    <string name="add" tools:ignore="MissingTranslation">Dodati</string>
+    <string name="options" tools:ignore="MissingTranslation">Postavke</string>
+    <string name="removeCity" tools:ignore="MissingTranslation">Uklonite %s</string>
+    <string name="alarm" tools:ignore="MissingTranslation">Alarm</string>
+    <string name="themes_system" tools:ignore="MissingTranslation">Sistem (Svjetlo/Tamno)</string>
+    <string name="themes_light" tools:ignore="MissingTranslation">Svjetlo</string>
+    <string name="themes_dark" tools:ignore="MissingTranslation">Tamno</string>
+    <string name="themes_red" tools:ignore="MissingTranslation">Crvena</string>
+    <string name="themes_sand" tools:ignore="MissingTranslation">Pješčana</string>
+    <string name="themes_blue" tools:ignore="MissingTranslation">Plava</string>
+    <string name="degree_north" tools:ignore="MissingTranslation">S</string>
+    <string name="degree_north_north_east" tools:ignore="MissingTranslation">SSI</string>
+    <string name="degree_north_east" tools:ignore="MissingTranslation">SI</string>
+    <string name="degree_east_north_east" tools:ignore="MissingTranslation">ISI</string>
+    <string name="degree_east" tools:ignore="MissingTranslation">I</string>
+    <string name="degree_east_south_east" tools:ignore="MissingTranslation">IJI</string>
+    <string name="degree_south_east" tools:ignore="MissingTranslation">JI</string>
+    <string name="degree_south_south_east" tools:ignore="MissingTranslation">JJI</string>
+    <string name="degree_south" tools:ignore="MissingTranslation">J</string>
+    <string name="degree_south_south_west" tools:ignore="MissingTranslation">JJZ</string>
+    <string name="degree_south_west" tools:ignore="MissingTranslation">JZ</string>
+    <string name="degree_west_south_west" tools:ignore="MissingTranslation">ZJZ</string>
+    <string name="degree_west" tools:ignore="MissingTranslation">Z</string>
+    <string name="degree_north_west" tools:ignore="MissingTranslation">SZ</string>
+    <string name="degree_north_north_west" tools:ignore="MissingTranslation">SSZ</string>
+    <string name="temp_kelvin" tools:ignore="MissingTranslation">K</string>
+    <string name="temp_celsius" tools:ignore="MissingTranslation">°C</string>
+    <string name="temp_fahrenheit" tools:ignore="MissingTranslation">°F</string>
+    <string name="speed_meters_per_seconds" tools:ignore="MissingTranslation">m/s</string>
+    <string name="speed_kilometers_per_hour" tools:ignore="MissingTranslation">km/h</string>
+    <string name="speed_miles_per_hour" tools:ignore="MissingTranslation">mph</string>
+    <string name="speed_beaufort" tools:ignore="MissingTranslation">Bft</string>
+    <string name="speed_knot" tools:ignore="MissingTranslation">čvor</string>
+    <string name="distance_millimeter" tools:ignore="MissingTranslation">mm</string>
+    <string name="distance_inch" tools:ignore="MissingTranslation">in</string>
+    <string name="pressure_hectopascal" tools:ignore="MissingTranslation">hPa</string>
+    <string name="pressure_kilopascal" tools:ignore="MissingTranslation">kPa</string>
+    <string name="pressure_millimeters_of_mercury" tools:ignore="MissingTranslation">mm Hg</string>
+    <string name="pressure_inch_of_mercury" tools:ignore="MissingTranslation">in Hg</string>
+    <string name="pressure_pounds_per_square_inch" tools:ignore="MissingTranslation">psi</string>
+    <string name="pressure_atmosphere" tools:ignore="MissingTranslation">atm</string>
+</resources>

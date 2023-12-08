@@ -1,0 +1,10 @@
+- extensive API-Nutzung behoben (mindestens ein Widget bearbeiten und speichern) (thx @oldnomad für den Hinweis)
+- Graphen verbessert
+- verbesserter Hauptbildschirm
+- AppWidget zeigt nun höchste und niedrigste Temperatur an
+- farbige Icons nicht mehr in Beta
+- Kroatisch hinzugefügt (thx @SecularSteve)
+- Indonesisch hinzugefügt (thx @t12)
+- Irisch hinzugefügt (thx @mondstern)
+- Slowakisch hinzugefügt (thx @jan_v)
+- Übersetzungen aktualisiert

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Погода</string>
+    <string name="status">Статус</string>
+    <string name="logo">Логотип</string>
+    <string name="city">Город</string>
+    <string name="detect_location">Определить местоположение</string>
+    <string name="detect_location_automatic">Автоматическое определение местоположения</string>
+    <string name="detect_location_search">Определение местоположения…</string>
+    <string name="detect_location_activate">Функция определения местоположения не включена. Активируйте её, для использования.</string>
+    <string name="detect_location_permission_not_granted">Разрешение на определение местоположения не предоставлено.
+\nПредоставьте его в настройках (значок GPS).</string>
+    <string name="detect_location_new_location">Обнаружено новое местоположение - перезапуск с новым местоположением…</string>
+    <string name="api_key">Ключ API (нажмите для информации)</string>
+    <string name="enter_your_openweathermap_api_key">Введите Ваш ключ API</string>
+    <string name="submit_data">Представить данные</string>
+    <string name="UiSettings">Настройки отображения</string>
+    <string name="unit1">Единицы (Температура | Ветер)</string>
+    <string name="unit2">Единицы (Дождь | Давление)</string>
+    <string name="chooseTheme">Тема:</string>
+    <string name="gradient">Градиент</string>
+    <string name="coloured_status_icons">Цветные значки состояния</string>
+    <string name="TimeFormat">24-часовой формат</string>
+    <string name="ChooseLang">Выбрать язык</string>
+    <string name="choose_city">Выберите Ваш город:</string>
+    <string name="abort">Прервать</string>
+    <string name="error_occurred">Произошла ошибка, будут загружены старые данные! Возможно, вы достигли лимита API или отсутствует соединение…</string>
+    <string name="error_1">Ключ API не активен или не указан!</string>
+    <string name="error_2">Город некорректен или не указан!</string>
+    <string name="error_3">Пожалуйста, проверьте Ваше Интернет-соединение!</string>
+    <string name="reportError">Нашли ошибку\? Странное поведение\?
+\nДоложите об этом на <a href="https://codeberg.org/BeoCode/Weather/issues">Codeberg</a> или через <a href="mailto:weather@beocode.eu">почту</a></string>
+    <string name="created_by">Создано <a href="https://codeberg.org/BeoCode/Weather">BeoCode</a> под лицензией <a href="https://codeberg.org/BeoCode/Weather/src/branch/main/LICENSE">EUPL-1.2</a></string>
+    <string name="OWM">Данные предоставлены <a href="https://openweathermap.org/">OpenWeatherMap</a> под лицензией <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a></string>
+    <string name="Icons"><a href="https://erikflowers.github.io/weather-icons/">Иконки</a> от <a href="https://www.twitter.com/erik_flowers">Е. Flowers</a> и <a href="https://www.twitter.com/artill">L. Bischoff</a> лицензировано под <a href="https://scripts.sil.org/OFL">SIL OFL 1.1</a></string>
+    <string name="configureWidget">Настройка виджета</string>
+    <string name="widgetBackTrans">Сделать фон виджета прозрачным</string>
+    <string name="ShowUpdatedAt">Не показывать \"Обновлено:\"</string>
+    <string name="widgetUpdateInterval">Установите интервал обновления виджетов (для всех виджетов)</string>
+    <string name="widgetUpdateIntervalUnit">мин</string>
+    <string name="widgetUpdateIntervalToShort">Примечание: Такой короткий интервал обновления недопустим для стандартного ключа. Поэтому интервал обновления установлен на 30 минут.</string>
+    <string name="updated">Обновлено:</string>
+    <string name="weatherMaps">Погодные карты</string>
+    <string name="feels">Ощущается как</string>
+    <string name="weatherAlerts">Есть предупреждения о погоде…</string>
+    <string name="sunrise">Восход</string>
+    <string name="sunset">Закат</string>
+    <string name="wind">Ветер</string>
+    <string name="pressure">Давление</string>
+    <string name="humidity">Влажность</string>
+    <string name="rain">Дождь</string>
+    <string name="rainCloud">Дождь &amp; Облачность</string>
+    <string name="rainRadar">Радар дождя</string>
+    <string name="snow">Снег</string>
+    <string name="cloudiness">Облачность</string>
+    <string name="visibility">Видимость</string>
+    <string name="uvIndex">УФ-индекс</string>
+    <string name="windGust">Порыв ветра</string>
+    <string name="temperature">Температура</string>
+    <string name="Min">Мин</string>
+    <string name="Max">Макс</string>
+    <string name="date">dd.MM.yyyy</string>
+    <string name="daymonthdate">E, dd.MM.</string>
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="save">Сохранить</string>
+    <string name="add">Добавить</string>
+    <string name="options">Варианты</string>
+    <string name="switchCity">Сменить %1$s на главный город (%2$s)</string>
+    <string name="removeCity">Удалить %s</string>
+    <string name="alarm">Будильник</string>
+    <string name="themes_light">Светлая</string>
+    <string name="themes_dark">Тёмная</string>
+    <string name="themes_red">Красная</string>
+    <string name="themes_sand">Песочная</string>
+    <string name="themes_blue">Синяя</string>
+    <string name="degree_north">С</string>
+    <string name="degree_north_north_east">ССВ</string>
+    <string name="degree_north_east">СВ</string>
+    <string name="degree_east_north_east">ВСВ</string>
+    <string name="degree_east">В</string>
+    <string name="degree_east_south_east">ВЮВ</string>
+    <string name="degree_south_east">ЮВ</string>
+    <string name="degree_south_south_east">ЮЮВ</string>
+    <string name="degree_south">Ю</string>
+    <string name="degree_south_south_west">ЮЮЗ</string>
+    <string name="degree_south_west">ЮЗ</string>
+    <string name="degree_west_south_west">ЗЮЗ</string>
+    <string name="degree_west">З</string>
+    <string name="degree_west_north_west">ЗСЗ</string>
+    <string name="degree_north_west">СЗ</string>
+    <string name="degree_north_north_west">ССЗ</string>
+    <string name="temp_kelvin">K</string>
+    <string name="temp_celsius">°C</string>
+    <string name="temp_fahrenheit">°F</string>
+    <string name="speed_meters_per_seconds">м/с</string>
+    <string name="speed_kilometers_per_hour">км/ч</string>
+    <string name="speed_miles_per_hour">миль/ч</string>
+    <string name="speed_beaufort">Бфт</string>
+    <string name="speed_knot">уз</string>
+    <string name="distance_millimeter">мм</string>
+    <string name="distance_inch">дюйм</string>
+    <string name="pressure_hectopascal">гПа</string>
+    <string name="pressure_kilopascal">кПа</string>
+    <string name="pressure_millimeters_of_mercury">мм рт.ст.</string>
+    <string name="pressure_inch_of_mercury">дюйм рт.ст.</string>
+    <string name="pressure_pounds_per_square_inch">psi</string>
+    <string name="pressure_atmosphere">атм</string>
+    <string name="widgetColour" tools:ignore="MissingTranslation">Изменить цвет виджета</string>
+    <string name="red" tools:ignore="MissingTranslation">Красный</string>
+    <string name="green" tools:ignore="MissingTranslation">Зеленый</string>
+    <string name="blue" tools:ignore="MissingTranslation">Синий</string>
+    <string name="themes_system" tools:ignore="MissingTranslation">Системная (Светлая/Тёмная)</string>
+    <string name="daytime" tools:ignore="MissingTranslation">День</string>
+    <string name="highlightDay" tools:ignore="MissingTranslation">Главный день</string>
+</resources>

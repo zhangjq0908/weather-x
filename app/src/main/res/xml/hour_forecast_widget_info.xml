@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:description="@string/hour_forecast_widget"
+    android:configure="de.beowulf.wetter.widget.WidgetConfigurationActivity"
+    android:initialKeyguardLayout="@layout/forecast_widget"
+    android:initialLayout="@layout/forecast_widget"
+    android:minWidth="60dp"
+    android:minHeight="40dp"
+    android:previewImage="@drawable/hourforecastwidget_preview"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen"
+    android:widgetFeatures="reconfigurable|configuration_optional"
+    tools:targetApi="p" />

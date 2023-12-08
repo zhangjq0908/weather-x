@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Weather</string>
+    <string name="status">Statut</string>
+    <string name="logo">Symbol</string>
+    <string name="city">Město</string>
+    <string name="detect_location">Zjištění polohy</string>
+    <string name="detect_location_automatic">Automatická detekce polohy</string>
+    <string name="detect_location_search">Zjištění polohy…</string>
+    <string name="detect_location_activate">Umístění není povoleno. Chcete-li funkci používat, aktivujte ji.</string>
+    <string name="detect_location_permission_not_granted">Oprávnění k poloze nebylo uděleno.
+\nPovolte je v nastavení (ikona GPS).</string>
+    <string name="detect_location_new_location">Zjištěno nové umístění - restartujte s novým umístěním…</string>
+    <string name="api_key">Klíč API (klikněte pro informace)</string>
+    <string name="enter_your_openweathermap_api_key">Zadejte vlastní klíč API</string>
+    <string name="submit_data">Odeslání dat</string>
+    <string name="UiSettings">Nastavení UI</string>
+    <string name="unit1">Jednotky (Teplota | Vítr)</string>
+    <string name="unit2">Jednotky (Déšť | Tlak)</string>
+    <string name="chooseTheme">Téma:</string>
+    <string name="gradient">Gradientní</string>
+    <string name="coloured_status_icons">Barevné ikony stavu</string>
+    <string name="TimeFormat">24 hodinový formát</string>
+    <string name="ChooseLang">Výběr jazyka</string>
+    <string name="choose_city">Zvolte si město:</string>
+    <string name="abort">Přerušit</string>
+    <string name="error_occurred">Došlo k chybě, budou načtena stará data! Pravděpodobně jste dosáhli limitu API nebo nemáte připojení…</string>
+    <string name="error_1">Klíč API není aktivní nebo není zadán!</string>
+    <string name="error_2">Město je neplatné nebo není uvedeno!</string>
+    <string name="error_3">Zkontrolujte si připojení k internetu!</string>
+    <string name="reportError">Found a mistake\? Strange behaviour\?
+\nReport it on <a href="https://codeberg.org/BeoCode/Weather/issues">Codeberg</a> or via <a href="mailto:weather@beocode.eu">email</a></string>
+    <string name="created_by">Created by <a href="https://codeberg.org/BeoCode/Weather">BeoCode</a> licensed under <a href="https://codeberg.org/BeoCode/Weather/src/branch/main/LICENSE">EUPL-1.2</a></string>
+    <string name="OWM">Data provided by <a href="https://openweathermap.org/">OpenWeatherMap</a> licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a></string>
+    <string name="Icons"><a href="https://erikflowers.github.io/weather-icons/">Icons</a> by <a href="https://www.twitter.com/erik_flowers">E. Flowers</a> &amp; <a href="https://www.twitter.com/artill">L. Bischoff</a> licensed under <a href="https://scripts.sil.org/OFL">SIL OFL 1.1</a></string>
+    <string name="configureWidget">Konfigurace widgetu</string>
+    <string name="widgetBackTrans">Zprůhlednění pozadí widgetu</string>
+    <string name="ShowUpdatedAt">Nezobrazovat \"Aktualizováno:\"</string>
+    <string name="widgetUpdateInterval">Nastavení intervalu aktualizace widgetu (pro všechny widgety)</string>
+    <string name="widgetUpdateIntervalUnit">min</string>
+    <string name="widgetUpdateIntervalToShort">Poznámka: Takto krátký interval aktualizace není pro standardní klíč povolen. Interval aktualizace byl proto nastaven na 30 minut.</string>
+    <string name="updated">Aktualizované:</string>
+    <string name="weatherMaps">Mapy počasí</string>
+    <string name="feels">Pocit, že</string>
+    <string name="weatherAlerts">Upozornění na počasí…</string>
+    <string name="sunrise">Východ slunce</string>
+    <string name="sunset">Západ slunce</string>
+    <string name="wind">Vítr</string>
+    <string name="pressure">Tlak</string>
+    <string name="humidity">Vlhkost</string>
+    <string name="rain">Déšť</string>
+    <string name="rainCloud">Déšť &amp; Zamračenost</string>
+    <string name="rainRadar">Déšť Radar</string>
+    <string name="snow">Sníh</string>
+    <string name="cloudiness">Zamračenost</string>
+    <string name="visibility">Viditelnost</string>
+    <string name="uvIndex">UV Index</string>
+    <string name="windGust">Poryv větru</string>
+    <string name="temperature">Teplota</string>
+    <string name="Min">Min</string>
+    <string name="Max">Max</string>
+    <string name="date">dd.MM.yyyy</string>
+    <string name="daymonthdate">E, dd.MM.</string>
+    <string name="today">Dnes</string>
+    <string name="tomorrow">Zítra</string>
+    <string name="save">Uložit</string>
+    <string name="add">Přidat</string>
+    <string name="options">Volby</string>
+    <string name="switchCity">Výměna %1$s za hlavní město (%2$s)</string>
+    <string name="removeCity">Odstranit %s</string>
+    <string name="alarm">Budík</string>
+    <string name="themes_light">Světlo</string>
+    <string name="themes_dark">Temný</string>
+    <string name="themes_red">Červená</string>
+    <string name="themes_sand">Písek</string>
+    <string name="themes_blue">Modrá</string>
+    <string name="degree_north">N</string>
+    <string name="degree_north_north_east">NNE</string>
+    <string name="degree_north_east">NE</string>
+    <string name="degree_east_north_east">ENE</string>
+    <string name="degree_east">E</string>
+    <string name="degree_east_south_east">ESE</string>
+    <string name="degree_south_east">SE</string>
+    <string name="degree_south_south_east">SSE</string>
+    <string name="degree_south">S</string>
+    <string name="degree_south_south_west">SSW</string>
+    <string name="degree_south_west">SW</string>
+    <string name="degree_west_south_west">WSW</string>
+    <string name="degree_west">W</string>
+    <string name="degree_west_north_west">WNW</string>
+    <string name="degree_north_west">NW</string>
+    <string name="degree_north_north_west">NNW</string>
+    <string name="temp_kelvin">K</string>
+    <string name="temp_celsius">°C</string>
+    <string name="temp_fahrenheit">°F</string>
+    <string name="speed_meters_per_seconds">m/s</string>
+    <string name="speed_kilometers_per_hour">km/h</string>
+    <string name="speed_miles_per_hour">mph</string>
+    <string name="speed_beaufort">Bft</string>
+    <string name="speed_knot">kn</string>
+    <string name="distance_millimeter">mm</string>
+    <string name="distance_inch">in</string>
+    <string name="pressure_hectopascal">hPa</string>
+    <string name="pressure_kilopascal">kPa</string>
+    <string name="pressure_millimeters_of_mercury">mm Hg</string>
+    <string name="pressure_inch_of_mercury">in Hg</string>
+    <string name="pressure_pounds_per_square_inch">psi</string>
+    <string name="pressure_atmosphere">atm</string>
+    <string name="daytime" tools:ignore="MissingTranslation">Denní</string>
+    <string name="highlightDay" tools:ignore="MissingTranslation">Nejdůležitější den</string>
+    <string name="widgetColour" tools:ignore="MissingTranslation">Přizpůsobení barvy widgetu</string>
+    <string name="red" tools:ignore="MissingTranslation">Červená</string>
+    <string name="green" tools:ignore="MissingTranslation">Zelená</string>
+    <string name="blue" tools:ignore="MissingTranslation">Modrá</string>
+    <string name="themes_system" tools:ignore="MissingTranslation">Systém (světlý/tmavý)</string>
+</resources>

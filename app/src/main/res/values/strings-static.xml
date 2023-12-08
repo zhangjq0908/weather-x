@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="daydate" translatable="false">E</string>
+    <string name="time12" translatable="false">hh:mm a</string>
+    <string name="time24" translatable="false">HH:mm</string>
+    <string-array name="lang" translatable="false">
+        <item>System</item>
+        <item>English (100%)</item>
+        <item>Armenian (81%)</item>
+        <item>Bosnian (100%)</item>
+        <item>Bulgarian (100%)</item>
+        <item>Chinese (simpl.) (100%)</item>
+        <item>Chinese (trad.) (100%)</item>
+        <item>Croatian (100%)</item>
+        <item>Czech (100%)</item>
+        <item>Dutch (100%)</item>
+        <item>English (US) (100%)</item>
+        <item>Esperanto (100%)</item>
+        <item>Finnish (100%)</item>
+        <item>French (100%)</item>
+        <item>Georgian (78%)</item>
+        <item>German (100%)</item>
+        <item>Greek (89%)</item>
+        <item>Indonesian (28%)</item>
+        <item>Irish (63%)</item>
+        <item>Italian (100%)</item>
+        <item>Japanese (3%)</item>
+        <item>Macedonian (100%)</item>
+        <item>Polish (100%)</item>
+        <item>Portuguese (BR) (100%)</item>
+        <item>Russian (100%)</item>
+        <item>Serbian (Latin) (100%)</item>
+        <item>Slovak (100%)</item>
+        <item>Spanish (100%)</item>
+        <item>Turkish (100%)</item>
+        <item>Ukrainian (100%)</item>
+    </string-array>
+    <string name="standardKey" translatable="false">dc0bc479131e4d0b79b54e3a3e115ca0</string>
+    <string-array name="lang_Code" translatable="false">
+        <item>system</item>
+        <item>en</item>
+        <item>hy</item>
+        <item>bs</item>
+        <item>bg</item>
+        <item>zh</item>
+        <item>zh_tw</item>
+        <item>hr</item>
+        <item>cz</item>
+        <item>nl</item>
+        <item>en_US</item>
+        <item>eo</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>ka</item>
+        <item>de</item>
+        <item>el</item>
+        <item>id</item>
+        <item>ga</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>mk</item>
+        <item>pl</item>
+        <item>pt_br</item>
+        <item>ru</item>
+        <item>sr</item>
+        <item>sk</item>
+        <item>es</item>
+        <item>tr</item>
+        <item>uk</item>
+    </string-array>
+</resources>

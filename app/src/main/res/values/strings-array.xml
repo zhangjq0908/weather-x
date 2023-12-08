@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Themes">
+        <item>@string/themes_system</item>
+        <item>@string/themes_light</item>
+        <item>@string/themes_dark</item>
+        <item>@string/themes_red</item>
+        <item>@string/themes_sand</item>
+        <item>@string/themes_blue</item>
+        <item>@string/themes_amoled</item>
+    </string-array>
+
+    <string-array name="Degree">
+        <item>@string/degree_north</item>
+        <item>@string/degree_north_north_east</item>
+        <item>@string/degree_north_east</item>
+        <item>@string/degree_east_north_east</item>
+        <item>@string/degree_east</item>
+        <item>@string/degree_east_south_east</item>
+        <item>@string/degree_south_east</item>
+        <item>@string/degree_south_south_east</item>
+        <item>@string/degree_south</item>
+        <item>@string/degree_south_south_west</item>
+        <item>@string/degree_south_west</item>
+        <item>@string/degree_west_south_west</item>
+        <item>@string/degree_west</item>
+        <item>@string/degree_west_north_west</item>
+        <item>@string/degree_north_west</item>
+        <item>@string/degree_north_north_west</item>
+    </string-array>
+
+    <string-array name="unitsTemp">
+        <item>@string/temp_kelvin</item>
+        <item>@string/temp_celsius</item>
+        <item>@string/temp_fahrenheit</item>
+    </string-array>
+
+    <string-array name="unitsSpeed">
+        <item>@string/speed_meters_per_seconds</item>
+        <item>@string/speed_kilometers_per_hour</item>
+        <item>@string/speed_miles_per_hour</item>
+        <item>@string/speed_beaufort</item>
+        <item>@string/speed_knot</item>
+    </string-array>
+    
+    <string-array name="unitsDistance">
+        <item>@string/distance_millimeter</item>
+        <item>@string/distance_inch</item>
+    </string-array>
+
+    <string-array name="unitsPressure">
+        <item>@string/pressure_hectopascal</item>
+        <item>@string/pressure_kilopascal</item>
+        <item>@string/pressure_millimeters_of_mercury</item>
+        <item>@string/pressure_inch_of_mercury</item>
+        <item>@string/pressure_pounds_per_square_inch</item>
+        <item>@string/pressure_atmosphere</item>
+    </string-array>
+
+</resources>

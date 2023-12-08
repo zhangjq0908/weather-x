@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".widget.WidgetConfigurationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="@string/configureWidget"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/backTrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/widgetBackTrans"
+        android:textColor="?attr/frontColor"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/hideUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ShowUpdatedAt"
+        android:textColor="?attr/frontColor"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/highlightDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/highlightDay"
+        android:visibility="gone"
+        android:textColor="?attr/frontColor"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dp"
+        android:text="@string/widgetColour"
+        android:textAlignment="center"
+        android:textColor="?attr/frontColor"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp">
+
+        <EditText
+            android:id="@+id/red"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:hint="@string/red"
+            android:inputType="number"
+            android:nextFocusDown="@id/green"
+            android:paddingHorizontal="2.5dp"
+            android:text="255"
+            android:textColor="?frontColor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/green"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:hint="@string/green"
+            android:inputType="number"
+            android:nextFocusDown="@id/blue"
+            android:paddingHorizontal="2.5dp"
+            android:text="255"
+            android:textColor="?frontColor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/blue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:hint="@string/blue"
+            android:inputType="number"
+            android:paddingHorizontal="2.5dp"
+            android:text="255"
+            android:textColor="?frontColor"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/colorPreview"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2.5dp"
+            android:background="#ffffff" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dp"
+        android:text="@string/widgetUpdateInterval"
+        android:textAlignment="center"
+        android:textColor="?attr/frontColor"
+        android:textSize="17sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp">
+
+        <EditText
+            android:id="@+id/widgetUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/widgetUpdateUnit"
+            android:layout_toLeftOf="@id/widgetUpdateUnit"
+            android:autofillHints=""
+            android:hint="@string/widgetUpdateInterval"
+            android:inputType="number"
+            android:textColor="?frontColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/widgetUpdateUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/widgetUpdateIntervalUnit"
+            android:textColor="?attr/frontColor"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="20dp"
+        android:background="?attr/bg_round"
+        android:text="@string/save" />
+
+</LinearLayout>
